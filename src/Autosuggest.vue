@@ -23,26 +23,34 @@
         :aria-labelledby="componentAttrIdAutosuggest"
       >
         <slot name="header" />
-        <component
-          :is="cs.type"
-          v-for="(cs, key) in computedSections"
-          :ref="getSectionRef(key)"
-          :key="getSectionRef(key)"
+        <slot 
+          name="content" 
+          :computedSections="computedSections"
           :current-index="currentIndex"
           :normalize-item-function="normalizeItem"
-          :render-suggestion="renderSuggestion"
-          :section="cs"
           :update-current-index="updateCurrentIndex"
         >
-          <template slot-scope="{ suggestion, _key }">
-            <slot 
-              :suggestion="suggestion" 
-              :index="_key"
-            >
-              {{ suggestion.item }}
-            </slot>
-          </template>
-        </component>
+          <component
+            :is="cs.type"
+            v-for="(cs, key) in computedSections"
+            :ref="getSectionRef(key)"
+            :key="getSectionRef(key)"
+            :current-index="currentIndex"
+            :normalize-item-function="normalizeItem"
+            :render-suggestion="renderSuggestion"
+            :section="cs"
+            :update-current-index="updateCurrentIndex"
+          >
+            <template slot-scope="{ suggestion, _key }">
+              <slot 
+                :suggestion="suggestion" 
+                :index="_key"
+              >
+                {{ suggestion.item }}
+              </slot>
+            </template>
+          </component>
+        </slot>
         <slot name="footer" />
       </div>
     </div>
