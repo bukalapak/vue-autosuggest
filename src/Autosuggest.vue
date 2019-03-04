@@ -1,7 +1,7 @@
 <template>
   <div :id="componentAttrIdAutosuggest">
     <input 
-      type="text"
+      :type="inputProps['type'] ? inputProps['type'] : 'text'"
       :value="internalValue"
       :autocomplete="inputProps.autocomplete"
       role="combobox"
@@ -28,6 +28,7 @@
           :computedSections="computedSections"
           :current-index="currentIndex"
           :normalize-item-function="normalizeItem"
+          :render-suggestion="renderSuggestion"
           :update-current-index="updateCurrentIndex"
         >
           <component

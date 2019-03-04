@@ -13,27 +13,6 @@
         :should-render-suggestions="(size, loading) => size >= 0 && !loading"
         ref="autocomplete"
       >
-        <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
-          <default-section
-            :is="cs.type"
-            v-for="(cs, key) in computedSections"
-            :ref="getSectionRef(key)"
-            :key="getSectionRef(key)"
-            :current-index="currentIndex"
-            :normalize-item-function="normalizeItem"
-            :section="cs"
-            :update-current-index="updateCurrentIndex"
-          >
-            <template slot-scope="{ suggestion, _key }">
-              <slot 
-                :suggestion="suggestion" 
-                :index="_key"
-              >
-                {{ suggestion.item.Name }}
-              </slot>
-            </template>
-          </default-section>
-        </template>
         <template slot="footer">
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
@@ -68,7 +47,6 @@
 
 <script>
 import VueAutosuggest from "../src/Autosuggest.vue";
-import DefaultSection from "../src/parts/DefaultSection.js";
 
 import characters from './lotr-character'
 
@@ -89,8 +67,7 @@ const races = [...new Set(characters.map(c => { return c.Race }))]
 
 export default {
   components: {
-    VueAutosuggest,
-    DefaultSection
+    VueAutosuggest
   },
   mounted(){
     updateCSSVariables(darkTheme)
