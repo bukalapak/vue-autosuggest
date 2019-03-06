@@ -21,10 +21,10 @@ const DefaultSection = {
       return data.slice(0, limit);
     },
     className: function() {
-      return `autosuggest__results_title autosuggest__results_title_${this.section.name}`;
+      return `autosuggest__result_title -${this.section.name}`;
     },
     wrapperClassName: function() {
-      return `autosuggest__result autosuggest__result_${this.section.name}`;
+      return `autosuggest__result -${this.section.name}`;
     }
   },
   methods: {
@@ -59,13 +59,13 @@ const DefaultSection = {
                 role: "option",
                 "data-suggestion-index": this.getItemIndex(key),
                 "data-section-name": this.section.name,
-                id: "autosuggest__results_item-" + this.getItemIndex(key)
+                id: "autosuggest__result_item-" + this.getItemIndex(key)
               },
               key: this.getItemIndex(key),
               class: {
-                "autosuggest__results_item-highlighted":
+                "autosuggest__result_item-highlighted":
                   this.getItemIndex(key) == this.currentIndex,
-                autosuggest__results_item: true
+                autosuggest__result_item: true
               },
               on: {
                 mouseenter: this.onMouseEnter,
