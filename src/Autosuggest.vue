@@ -9,7 +9,7 @@
       v-bind="inputProps"
       aria-autocomplete="list"
       aria-owns="autosuggest__results"
-      :aria-activedescendant="isOpen && currentIndex !== null ? `autosuggest__results_item-${currentIndex}` : ''"
+      :aria-activedescendant="isOpen && currentIndex !== null ? `autosuggest__result_item-${currentIndex}` : ''"
       :aria-haspopup="isOpen ? 'true' : 'false'"
       :aria-expanded="isOpen ? 'true' : 'false'"
       @input="inputHandler"
@@ -393,7 +393,7 @@ export default {
         return;
       }
 
-      const itemElement = this.$el.querySelector(`#autosuggest__results_item-${index}`);
+      const itemElement = this.$el.querySelector(`#autosuggest__result_item-${index}`);
       if (!itemElement) {
         return;
       }
@@ -462,9 +462,9 @@ export default {
       }
 
       this.currentIndex = adjustedValue;
-      const element = this.$el.querySelector(`#autosuggest__results_item-${this.currentIndex}`);
+      const element = this.$el.querySelector(`#autosuggest__result_item-${this.currentIndex}`);
 
-      const hoverClass = "autosuggest__results_item-highlighted";
+      const hoverClass = "autosuggest__result_item-highlighted";
       if (this.$el.querySelector(`.${hoverClass}`)) {
         removeClass(this.$el.querySelector(`.${hoverClass}`), hoverClass);
       }
