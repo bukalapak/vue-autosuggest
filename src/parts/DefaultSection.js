@@ -22,6 +22,9 @@ const DefaultSection = {
     },
     className: function() {
       return `autosuggest__results_title autosuggest__results_title_${this.section.name}`;
+    },
+    wrapperClassName: function() {
+      return `autosuggest__result autosuggest__result_${this.section.name}`;
     }
   },
   methods: {
@@ -38,26 +41,19 @@ const DefaultSection = {
     },
     onMouseLeave() {
       this.updateCurrentIndex(null);
-    }
-  },
-  // eslint-disable-next-line no-unused-vars
-  render(h) {
-    let sectionTitle = this.section.label ? (
-      <li class={this.className}>{this.section.label}</li>
-    ) : (
-      ""
-    );
-    return h(
-      "ul",
-      {
-        attrs: { role: "listbox", "aria-labelledby": "autosuggest" }
-      },
+    },
+    genTitle(){
+      if(this.section.label)
+        return this.$createElement('h3',{ class: this.className }, this.section.label)
+    },
+    genResult() {
+      return this.$createElement('div', 
+      {class: 'autosuggest__result_wrapper'},
       [
-        sectionTitle,
         this.list.map((val, key) => {
           let item = this.normalizeItemFunction(this.section.name, this.section.type, this.section.label, val)
-          return h(
-            "li",
+          return this.$createElement(
+            "div",
             {
               attrs: {
                 role: "option",
@@ -83,6 +79,20 @@ const DefaultSection = {
             })]
           );
         })
+      ])
+    }
+  },
+  // eslint-disable-next-line no-unused-vars
+  render(h) {
+    return h(
+      "div",
+      {
+        class: this.wrapperClassName,
+        attrs: { role: "listbox", "aria-labelledby": "autosuggest" }
+      },
+      [
+        this.genTitle(),
+        this.genResult()
       ]
     );
   }
