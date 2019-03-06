@@ -235,7 +235,7 @@ h1 {
   background-color: var(--theme-bg);
 }
 
-.autosuggest__results .autosuggest__results_item {
+.autosuggest__results .autosuggest__result_item {
   cursor: pointer;
   background-color: var(--theme-bg);
   padding: 10px;
@@ -254,10 +254,10 @@ h1 {
   border-top: 1px solid lightgray;
 }
 
-.autosuggest__results .autosuggest__results_item:active,
-.autosuggest__results .autosuggest__results_item:hover,
-.autosuggest__results .autosuggest__results_item:focus,
-.autosuggest__results .autosuggest__results_item.autosuggest__results_item-highlighted {
+.autosuggest__results .autosuggest__result_item:active,
+.autosuggest__results .autosuggest__result_item:hover,
+.autosuggest__results .autosuggest__result_item:focus,
+.autosuggest__results .autosuggest__result_item.autosuggest__result_item-highlighted {
   background-color: var(--theme-item_bg_highlighted);
   color: var(--theme-item_color_highlighted);
 }
