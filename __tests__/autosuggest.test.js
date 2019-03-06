@@ -231,16 +231,16 @@ describe("Autosuggest", () => {
     input1.trigger("click");
     input2.trigger("click");
     
-    expect(autosuggest1.findAll("div.autosuggest__results_item").length).toBe(5);
-    expect(autosuggest1.findAll("div.autosuggest__results_item").length).toBe(5);
+    expect(autosuggest1.findAll("div.autosuggest__result_item").length).toBe(5);
+    expect(autosuggest1.findAll("div.autosuggest__result_item").length).toBe(5);
 
     times(2)(() => {
       input2.trigger("keydown.down");
     });
 
-    expect(autosuggest1.findAll("div.autosuggest__results_item-highlighted").length).toBe(0);
-    expect(autosuggest2.findAll("div.autosuggest__results_item-highlighted").length).toBe(1);
-    expect(autosuggest2.findAll("div.autosuggest__results_item").at(1).classes()).toContain("autosuggest__results_item-highlighted");
+    expect(autosuggest1.findAll("div.autosuggest__result_item-highlighted").length).toBe(0);
+    expect(autosuggest2.findAll("div.autosuggest__result_item-highlighted").length).toBe(1);
+    expect(autosuggest2.findAll("div.autosuggest__result_item").at(1).classes()).toContain("autosuggest__result_item-highlighted");
 
     input2.trigger("keydown.enter");
 
@@ -296,7 +296,7 @@ describe("Autosuggest", () => {
 
     input.trigger("click");
     input.setValue("G");
-    expect(wrapper.find("h3.autosuggest__results_title").element.innerHTML).toBe(
+    expect(wrapper.find("h3.autosuggest__result_title").element.innerHTML).toBe(
       props.sectionConfigs.default.label
     );
     const renderer = createRenderer();
@@ -372,9 +372,9 @@ describe("Autosuggest", () => {
       input.trigger("keydown.down");
     });
 
-    wrapper.find("div.autosuggest__results_item").trigger("mouseover");
-    wrapper.find("div.autosuggest__results_item").trigger("mouseenter");
-    wrapper.find("div.autosuggest__results_item").trigger("mouseleave");
+    wrapper.find("div.autosuggest__result_item").trigger("mouseover");
+    wrapper.find("div.autosuggest__result_item").trigger("mouseenter");
+    wrapper.find("div.autosuggest__result_item").trigger("mouseleave");
 
     const renderer = createRenderer();
     renderer.renderToString(wrapper.vm, (err, str) => {
