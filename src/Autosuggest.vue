@@ -1,5 +1,6 @@
 <template>
   <div :id="componentAttrIdAutosuggest">
+    <slot name="label" />
     <input 
       :type="inputProps['type'] ? inputProps['type'] : 'text'"
       :value="internalValue"
