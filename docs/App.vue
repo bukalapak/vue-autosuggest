@@ -10,10 +10,13 @@
         :input-props="inputProps"
         :section-configs="sectionConfigs"
         :getSuggestionValue="getSuggestionValue"
-        :should-render-suggestions="(size, loading) => size >= 0 && !loading"
+        :should-render-suggestions="(size, loading) => size >= 0 && !loading && searchText !== ''"
         ref="autocomplete"
       >
-        <template slot="footer">
+        <template slot-scope="{suggestion}">
+          <div>{{suggestion.item.Name}}</div>
+        </template>
+        <template slot="after-suggestions">
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
       </vue-autosuggest>
@@ -47,7 +50,6 @@
 
 <script>
 import VueAutosuggest from "../src/Autosuggest.vue";
-
 import characters from './lotr-character'
 
 function updateCSSVariables(theme) {
@@ -119,10 +121,6 @@ export default {
     }
   },
   methods: {
-
-    getSectionRef(i) {
-      return "computed_section_" + i;
-    },
     toggleDark(){
       this.colorMode = ((this.colorMode === 'dark') ? 'light' : 'dark')
       if(this.colorMode === 'dark'){
@@ -153,15 +151,7 @@ export default {
         return
       }
       this.selected = item.item
-    },
-    normalizeItem(name, type, label, item) {
-      return {
-        name,
-        type,
-        label,
-        item
-      };
-    },
+    }
   }
 };
 </script>
