@@ -1,6 +1,6 @@
 <template>
   <div :id="componentAttrIdAutosuggest">
-    <slot name="label" />
+    <slot name="before-suggestions" />
     <input 
       :type="inputProps['type'] ? inputProps['type'] : 'text'"
       :value="internalValue"
@@ -23,7 +23,7 @@
         :class="componentAttrClassAutosuggestResults"
         :aria-labelledby="componentAttrIdAutosuggest"
       >
-        <slot name="header" />
+        <slot name="after-suggestions" />
         <component
           :is="cs.type"
           v-for="(cs, key) in computedSections"
