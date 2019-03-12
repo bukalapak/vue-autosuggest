@@ -143,10 +143,11 @@ exports[`Autosuggest can render simplest component with single onSelected 1`] = 
 `;
 
 exports[`Autosuggest can render slots 1`] = `
-<div id="autosuggest"> <input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input-open">
+<div id="autosuggest">
+  <div class="header-dude"></div> <input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input-open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div class="header-dude"></div>
+      <div id="footer-dude"><span>1</span><span>2</span></div>
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
         <div class="autosuggest__result_wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item">
@@ -166,7 +167,6 @@ exports[`Autosuggest can render slots 1`] = `
           </div>
         </div>
       </div>
-      <div id="footer-dude"><span>1</span><span>2</span></div>
     </div>
   </div>
 </div>
