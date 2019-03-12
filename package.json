@@ -1,6 +1,6 @@
 {
   "name": "@bukalapak/vue-autosuggest",
-  "version": "2.0.3-mod",
+  "version": "2.0.4-mod",
   "description": "Vue autosuggest component.",
   "engines": {
     "node": "> 4",
@@ -88,7 +88,6 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0-beta.3",
     "husky": "0.14.3",
-    "jest": "23.6.0",
     "jest-serializer-vue": "^2.0.2",
     "kcd-scripts": "0.27.1",
     "prettier": "1.14.3",
