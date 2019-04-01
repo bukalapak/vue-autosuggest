@@ -15,6 +15,7 @@
       >
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
           <default-section
             :is="cs.type"
@@ -68,6 +69,31 @@
 =======
         <template slot-scope="{suggestion}">
           <div>{{suggestion.item.Name}}</div>
+||||||| parent of 6501a3d... update demo file
+        <template slot-scope="{suggestion}">
+          <div>{{suggestion.item.Name}}</div>
+=======
+        <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
+          <default-section
+            :is="cs.type"
+            v-for="(cs, key) in computedSections"
+            :ref="getSectionRef(key)"
+            :key="getSectionRef(key)"
+            :current-index="currentIndex"
+            :normalize-item-function="normalizeItem"
+            :section="cs"
+            :update-current-index="updateCurrentIndex"
+          >
+            <template slot-scope="{ suggestion, _key }">
+              <slot 
+                :suggestion="suggestion" 
+                :index="_key"
+              >
+                {{ suggestion.item.Name }}
+              </slot>
+            </template>
+          </default-section>
+>>>>>>> 6501a3d... update demo file
         </template>
         <template slot="after-suggestions">
 >>>>>>> 0b0602e... feat(slots) rename header/footer, add input slots
@@ -104,6 +130,8 @@
 
 <script>
 import VueAutosuggest from "../src/Autosuggest.vue";
+import DefaultSection from "../src/parts/DefaultSection.js";
+
 import characters from './lotr-character'
 
 function updateCSSVariables(theme) {
@@ -123,7 +151,8 @@ const races = [...new Set(characters.map(c => { return c.Race }))]
 
 export default {
   components: {
-    VueAutosuggest
+    VueAutosuggest,
+    DefaultSection
   },
   mounted(){
     updateCSSVariables(darkTheme)
@@ -175,6 +204,10 @@ export default {
     }
   },
   methods: {
+
+    getSectionRef(i) {
+      return "computed_section_" + i;
+    },
     toggleDark(){
       this.colorMode = ((this.colorMode === 'dark') ? 'light' : 'dark')
       if(this.colorMode === 'dark'){
@@ -205,7 +238,15 @@ export default {
         return
       }
       this.selected = item.item
-    }
+    },
+    normalizeItem(name, type, label, item) {
+      return {
+        name,
+        type,
+        label,
+        item
+      };
+    },
   }
 };
 </script>
