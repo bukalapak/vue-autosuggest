@@ -1,6 +1,6 @@
 <template>
   <div :id="componentAttrIdAutosuggest">
-    <slot name="before-input" /><input
+    <input 
       :type="inputProps['type'] ? inputProps['type'] : 'text'"
       :value="internalValue"
       :autocomplete="inputProps.autocomplete"
@@ -15,14 +15,14 @@
       @input="inputHandler"
       @keydown="handleKeyStroke"
       v-on="listeners"
-    ><slot name="after-input" />
+    >
     <div :class="componentAttrClassAutosuggestResultsContainer">
       <div 
         v-if="isOpen"
         :class="componentAttrClassAutosuggestResults"
         :aria-labelledby="componentAttrIdAutosuggest"
       >
-        <slot name="before-suggestions" />
+        <slot name="header" />
         <component
           :is="cs.type"
           v-for="(cs, key) in computedSections"
@@ -43,7 +43,7 @@
             </slot>
           </template>
         </component>
-        <slot name="after-suggestions" />
+        <slot name="footer" />
       </div>
     </div>
   </div>
@@ -421,12 +421,9 @@ export default {
     updateCurrentIndex(index) {
       this.currentIndex = index;
     },
-    clickedOnScrollbar(e, mouseX){
+    clickedOnScrollbar(mouseX){
       const results = this.$el.querySelector(`.${this.componentAttrClassAutosuggestResults}`);
-
-      const mouseIsInsideScrollbar = results && results.clientWidth <= (mouseX + 17) && 
-        mouseX + 17 <= results.clientWidth + 34
-      return e.target.tagName === 'DIV' && results && mouseIsInsideScrollbar || false;
+      return results && (results.clientWidth <= (mouseX + 16) && mouseX + 16 <= results.clientWidth + 16 ) || false;
     },
     onDocumentMouseDown(e) {
       var rect = e.target.getBoundingClientRect ? e.target.getBoundingClientRect() : 0;
@@ -435,9 +432,7 @@ export default {
     onDocumentMouseUp(e) {
       /** Do not re-render list on input click  */
       const isChild = this.$el.contains(e.target);
-
-      if (isChild && e.target.tagName === 'INPUT' ||
-        (this.clickedOnScrollbar(e, this.clientXMouseDownInitial))) {
+      if (isChild && e.target.tagName === 'INPUT' || this.clickedOnScrollbar(this.clientXMouseDownInitial)) {
         return;
       }
       
