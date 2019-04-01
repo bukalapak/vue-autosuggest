@@ -203,7 +203,7 @@ export default {
 
         const name = section.name ? section.name : this.defaultSectionConfig.name;
 
-        let { type, limit, label } = this.sectionConfigs[name];
+        let { type, limit, label, footer } = this.sectionConfigs[name];
 
         limit = limit || this.limit
 
@@ -213,10 +213,12 @@ export default {
         limit = limit ? limit : Infinity;
         limit = section.data.length < limit ? section.data.length : limit;
         label = label ? label : section.label;
+        footer = footer ? footer : section.footer;
 
         const computedSection = {
           name,
           label,
+          footer,
           type,
           limit,
           data: section.data,

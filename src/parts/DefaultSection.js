@@ -46,6 +46,17 @@ const DefaultSection = {
       if(this.section.label)
         return this.$createElement('h3',{ class: this.className }, this.section.label)
     },
+    genFooter() {
+      if(this.section.footer) {
+        return this.$createElement('a', { 
+          class: `autosuggest__result_footer -${this.section.name}`,
+          attrs: {
+            href: this.section.footer.link
+          },
+        }, 
+        this.section.footer.label)
+      }
+    },
     genResult() {
       return this.$createElement('div', 
       {class: 'autosuggest__result_wrapper'},
@@ -92,7 +103,8 @@ const DefaultSection = {
       },
       [
         this.genTitle(),
-        this.genResult()
+        this.genResult(),
+        this.genFooter()
       ]
     );
   }
