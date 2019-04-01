@@ -14,6 +14,7 @@
         ref="autocomplete"
       >
 <<<<<<< HEAD
+<<<<<<< HEAD
         <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
           <default-section
             :is="cs.type"
@@ -62,6 +63,14 @@
 =======
         <template slot="footer">
 >>>>>>> b2d98b1... update vue-autosuggest tempalte slot
+||||||| parent of 0b0602e... feat(slots) rename header/footer, add input slots
+        <template slot="footer">
+=======
+        <template slot-scope="{suggestion}">
+          <div>{{suggestion.item.Name}}</div>
+        </template>
+        <template slot="after-suggestions">
+>>>>>>> 0b0602e... feat(slots) rename header/footer, add input slots
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
       </vue-autosuggest>
@@ -95,7 +104,6 @@
 
 <script>
 import VueAutosuggest from "../src/Autosuggest.vue";
-
 import characters from './lotr-character'
 
 function updateCSSVariables(theme) {
@@ -167,10 +175,6 @@ export default {
     }
   },
   methods: {
-
-    getSectionRef(i) {
-      return "computed_section_" + i;
-    },
     toggleDark(){
       this.colorMode = ((this.colorMode === 'dark') ? 'light' : 'dark')
       if(this.colorMode === 'dark'){
@@ -201,15 +205,7 @@ export default {
         return
       }
       this.selected = item.item
-    },
-    normalizeItem(name, type, label, item) {
-      return {
-        name,
-        type,
-        label,
-        item
-      };
-    },
+    }
   }
 };
 </script>
