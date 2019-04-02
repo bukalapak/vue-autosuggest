@@ -435,11 +435,16 @@ export default {
     },
     onDocumentMouseUp(e) {
       /** Do not re-render list on input click  */
+      const isFooter = e.target.classList.contains('autosuggest__result_footer')
       const isChild = this.$el.contains(e.target);
 
       if (isChild && e.target.tagName === 'INPUT' ||
         (this.clickedOnScrollbar(e, this.clientXMouseDownInitial))) {
         return;
+      }
+
+      if(isFooter && e.target.tagName === 'A') {
+        window.location.href = e.target.href
       }
       
       /** Clicks outside of dropdown to exit */
