@@ -16,6 +16,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+||||||| parent of 4137bf0... update vue-autosuggest tempalte slot
+=======
+<<<<<<< HEAD
+>>>>>>> 4137bf0... update vue-autosuggest tempalte slot
         <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
           <default-section
             :is="cs.type"
@@ -38,6 +43,7 @@
           </default-section>
         </template>
         <template slot="after-suggestions">
+<<<<<<< HEAD
 ||||||| parent of b2d98b1... update vue-autosuggest tempalte slot
         <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
           <default-section
@@ -97,6 +103,35 @@
         </template>
         <template slot="after-suggestions">
 >>>>>>> 0b0602e... feat(slots) rename header/footer, add input slots
+||||||| parent of 4137bf0... update vue-autosuggest tempalte slot
+=======
+||||||| parent of b2d98b1... update vue-autosuggest tempalte slot
+        <template slot="content" slot-scope="{computedSections, currentIndex, updateCurrentIndex}">
+          <default-section
+            :is="cs.type"
+            v-for="(cs, key) in computedSections"
+            :ref="getSectionRef(key)"
+            :key="getSectionRef(key)"
+            :current-index="currentIndex"
+            :normalize-item-function="normalizeItem"
+            :section="cs"
+            :update-current-index="updateCurrentIndex"
+          >
+            <template slot-scope="{ suggestion, _key }">
+              <slot 
+                :suggestion="suggestion" 
+                :index="_key"
+              >
+                {{ suggestion.item.Name }}
+              </slot>
+            </template>
+          </default-section>
+        </template>
+        <template slot="footer">
+=======
+        <template slot="footer">
+>>>>>>> b2d98b1... update vue-autosuggest tempalte slot
+>>>>>>> 4137bf0... update vue-autosuggest tempalte slot
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
       </vue-autosuggest>
@@ -130,7 +165,6 @@
 
 <script>
 import VueAutosuggest from "../src/Autosuggest.vue";
-import DefaultSection from "../src/parts/DefaultSection.js";
 
 import characters from './lotr-character'
 
@@ -151,8 +185,7 @@ const races = [...new Set(characters.map(c => { return c.Race }))]
 
 export default {
   components: {
-    VueAutosuggest,
-    DefaultSection
+    VueAutosuggest
   },
   mounted(){
     updateCSSVariables(darkTheme)
