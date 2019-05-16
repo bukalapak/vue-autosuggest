@@ -231,16 +231,16 @@ describe("Autosuggest", () => {
     input1.trigger("click");
     input2.trigger("click");
     
-    expect(autosuggest1.findAll("div.autosuggest__result_item").length).toBe(5);
-    expect(autosuggest1.findAll("div.autosuggest__result_item").length).toBe(5);
+    expect(autosuggest1.findAll("div.autosuggest__result-item").length).toBe(5);
+    expect(autosuggest1.findAll("div.autosuggest__result-item").length).toBe(5);
 
     times(2)(() => {
       input2.trigger("keydown.down");
     });
 
-    expect(autosuggest1.findAll("div.autosuggest__result_item-highlighted").length).toBe(0);
-    expect(autosuggest2.findAll("div.autosuggest__result_item-highlighted").length).toBe(1);
-    expect(autosuggest2.findAll("div.autosuggest__result_item").at(1).classes()).toContain("autosuggest__result_item-highlighted");
+    expect(autosuggest1.findAll("div.autosuggest__result-item--highlighted").length).toBe(0);
+    expect(autosuggest2.findAll("div.autosuggest__result-item--highlighted").length).toBe(1);
+    expect(autosuggest2.findAll("div.autosuggest__result-item").at(1).classes()).toContain("autosuggest__result-item--highlighted");
 
     input2.trigger("keydown.enter");
 
@@ -296,7 +296,7 @@ describe("Autosuggest", () => {
 
     input.trigger("click");
     input.setValue("G");
-    expect(wrapper.find("h3.autosuggest__result_title").element.innerHTML).toBe(
+    expect(wrapper.find("div.autosuggest__result-wrapper h3").element.innerHTML).toBe(
       props.sectionConfigs.default.label
     );
     const renderer = createRenderer();
@@ -372,9 +372,9 @@ describe("Autosuggest", () => {
       input.trigger("keydown.down");
     });
 
-    wrapper.find("div.autosuggest__result_item").trigger("mouseover");
-    wrapper.find("div.autosuggest__result_item").trigger("mouseenter");
-    wrapper.find("div.autosuggest__result_item").trigger("mouseleave");
+    wrapper.find("div.autosuggest__result-item").trigger("mouseover");
+    wrapper.find("div.autosuggest__result-item").trigger("mouseenter");
+    wrapper.find("div.autosuggest__result-item").trigger("mouseleave");
 
     const renderer = createRenderer();
     renderer.renderToString(wrapper.vm, (err, str) => {
@@ -488,8 +488,8 @@ describe("Autosuggest", () => {
     const wrapper = mount(Autosuggest, {
       propsData: defaultProps,
       slots: {
-        ['before-suggestions']: '<div class="header-dude"></div>',
-        ['after-suggestions']: '<div id="footer-dude"><span>1</span><span>2</span></div>'
+        'before-suggestions': '<div class="header-dude"></div>',
+        'after-suggestions': '<div id="footer-dude"><span>1</span><span>2</span></div>'
       },
       scopedSlots: {
         default: `
@@ -509,6 +509,50 @@ describe("Autosuggest", () => {
 
     await wrapper.vm.$nextTick(() => {});
 
+    const renderer = createRenderer();
+    renderer.renderToString(wrapper.vm, (err, str) => {
+      if (err) {
+        return false;
+      }
+      expect(str).toMatchSnapshot();
+    });
+  });
+  
+  it("can render section slots", async () => {
+    const props = { ...defaultProps };
+    props.suggestions.push({ name: 'dogs', data: ['spike', 'bud', 'rover']})
+    props.suggestions.push({ name: 'cats', data: ['sassy', 'tuesday', 'church']})
+    props.suggestions.push({ name: 'zeu', data: ['elephant', 'lion']})
+    props.suggestions.push({ name: 'Uhh', data: ['something', 'something2']})
+
+    props.sectionConfigs = {
+      default: {
+        label: "Suggestions",
+        limit: 5,
+        onSelected: () => {}
+      },
+      Uhh: {
+        label: "uhh"
+      },
+    };
+    const wrapper = mount(Autosuggest, {
+      propsData: props,
+      attachToDocument: true,
+      scopedSlots: {
+        'before-section-dogs': `<li :class="props.className">The Dogs</li>`,
+        'before-section-cats': `<li>Moar Cats is good</li>`,
+        'before-section-zeu': `<li>zoo animals?</li>`
+      },
+    });
+
+    const input = wrapper.find("input");
+    input.setValue("G");
+
+    input.trigger("click");
+    input.setValue("G");
+    expect(wrapper.find("div.autosuggest__result-wrapper h3").element.innerHTML).toBe(
+      props.sectionConfigs.default.label
+    );
     const renderer = createRenderer();
     renderer.renderToString(wrapper.vm, (err, str) => {
       if (err) {
@@ -610,5 +654,29 @@ describe("Autosuggest", () => {
     wrapper.destroy()
     expect(AEL).toHaveBeenCalledTimes(2)
     expect(REL).toHaveBeenCalledTimes(2)
+  });
+
+  it("can modify input type attribute", async () => {
+    const props = Object.assign({}, defaultProps);
+    props.inputProps = {
+      ...defaultProps.inputProps,
+      type: 'search'
+    };
+
+    props.suggestions = [filteredOptions[0]];
+
+    const wrapper = shallowMount(Autosuggest, {
+      propsData: props
+    });
+
+    const input = wrapper.find('input[type="search"]')
+    expect(input.is('input')).toBe(true)
+    expect(input.attributes("type", 'search')).toBeTruthy();
+
+    const renderer = createRenderer();
+    renderer.renderToString(wrapper.vm, (err, str) => {
+      if (err) throw new Error(err);
+      expect(str).toMatchSnapshot();
+    });
   });
 });

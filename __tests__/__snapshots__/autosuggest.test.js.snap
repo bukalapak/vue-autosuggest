@@ -25,30 +25,38 @@ exports[`Autosuggest can customize ids and classes for container divs 1`] = `
 `;
 
 exports[`Autosuggest can display section header 1`] = `
-<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input-open">
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
-        <h3 class="autosuggest__result_title -default">Suggestions</h3>
-        <div class="autosuggest__result_wrapper">
-          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item">
+        <div class="autosuggest__result-wrapper">
+          <h3 class="autosuggest__results-before autosuggest__results-before--default">Suggestions</h3>
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
-          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result_item-1" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
             friendly chemistry
           </div>
-          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result_item-2" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item">
             phonics
           </div>
-          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result_item-3" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
             life of fred
           </div>
-          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result_item-4" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
             life of fred math
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+`;
+
+exports[`Autosuggest can modify input type attribute 1`] = `
+<div id="autosuggest"><input type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="false" aria-expanded="false" id="autosuggest__input" placeholder="Type 'G'">
+  <div class="autosuggest__results-container">
+    <!---->
   </div>
 </div>
 `;
@@ -69,70 +77,149 @@ exports[`Autosuggest can render default suggestion value by property name 1`] = 
 </div>
 `;
 
-exports[`Autosuggest can render simplest component with single onSelected 1`] = `
-<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="phonics" class="autosuggest__input-open cool-class">
+exports[`Autosuggest can render section slots 1`] = `
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
-        <div class="autosuggest__result_wrapper">
-          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item">
+        <div class="autosuggest__result-wrapper">
+          <h3 class="autosuggest__results-before autosuggest__results-before--default">Suggestions</h3>
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
-          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result_item-1" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
             friendly chemistry
           </div>
-          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result_item-2" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item">
             phonics
           </div>
-          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result_item-3" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
             life of fred
           </div>
-          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result_item-4" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
             life of fred math
           </div>
-          <div role="option" data-suggestion-index="5" data-section-name="default" id="autosuggest__result_item-5" class="autosuggest__result_item">
+        </div>
+      </div>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -dogs">
+        <div class="autosuggest__result-wrapper">
+          <li class="autosuggest__results-before autosuggest__results-before--dogs">The Dogs</li>
+          <div role="option" data-suggestion-index="5" data-section-name="dogs" id="autosuggest__result-item--5" class="autosuggest__result-item">
+            spike
+          </div>
+          <div role="option" data-suggestion-index="6" data-section-name="dogs" id="autosuggest__result-item--6" class="autosuggest__result-item">
+            bud
+          </div>
+          <div role="option" data-suggestion-index="7" data-section-name="dogs" id="autosuggest__result-item--7" class="autosuggest__result-item">
+            rover
+          </div>
+        </div>
+      </div>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -cats">
+        <div class="autosuggest__result-wrapper">
+          <li>Moar Cats is good</li>
+          <div role="option" data-suggestion-index="8" data-section-name="cats" id="autosuggest__result-item--8" class="autosuggest__result-item">
+            sassy
+          </div>
+          <div role="option" data-suggestion-index="9" data-section-name="cats" id="autosuggest__result-item--9" class="autosuggest__result-item">
+            tuesday
+          </div>
+          <div role="option" data-suggestion-index="10" data-section-name="cats" id="autosuggest__result-item--10" class="autosuggest__result-item">
+            church
+          </div>
+        </div>
+      </div>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -zeu">
+        <div class="autosuggest__result-wrapper">
+          <li>zoo animals?</li>
+          <div role="option" data-suggestion-index="11" data-section-name="zeu" id="autosuggest__result-item--11" class="autosuggest__result-item">
+            elephant
+          </div>
+          <div role="option" data-suggestion-index="12" data-section-name="zeu" id="autosuggest__result-item--12" class="autosuggest__result-item">
+            lion
+          </div>
+        </div>
+      </div>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -Uhh">
+        <div class="autosuggest__result-wrapper">
+          <h3 class="autosuggest__results-before autosuggest__results-before--Uhh">uhh</h3>
+          <div role="option" data-suggestion-index="13" data-section-name="Uhh" id="autosuggest__result-item--13" class="autosuggest__result-item">
+            something
+          </div>
+          <div role="option" data-suggestion-index="14" data-section-name="Uhh" id="autosuggest__result-item--14" class="autosuggest__result-item">
+            something2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autosuggest can render simplest component with single onSelected 1`] = `
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="phonics" class="autosuggest__input--open cool-class">
+  <div class="autosuggest__results-container">
+    <div aria-labelledby="autosuggest" class="autosuggest__results">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
+        <div class="autosuggest__result-wrapper">
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
+            clifford kits
+          </div>
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
+            friendly chemistry
+          </div>
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item">
+            phonics
+          </div>
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
+            life of fred
+          </div>
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
+            life of fred math
+          </div>
+          <div role="option" data-suggestion-index="5" data-section-name="default" id="autosuggest__result-item--5" class="autosuggest__result-item">
             magic school bus
           </div>
-          <div role="option" data-suggestion-index="6" data-section-name="default" id="autosuggest__result_item-6" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="6" data-section-name="default" id="autosuggest__result-item--6" class="autosuggest__result-item">
             math mammoth light blue
           </div>
-          <div role="option" data-suggestion-index="7" data-section-name="default" id="autosuggest__result_item-7" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="7" data-section-name="default" id="autosuggest__result-item--7" class="autosuggest__result-item">
             handwriting
           </div>
-          <div role="option" data-suggestion-index="8" data-section-name="default" id="autosuggest__result_item-8" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="8" data-section-name="default" id="autosuggest__result-item--8" class="autosuggest__result-item">
             math
           </div>
-          <div role="option" data-suggestion-index="9" data-section-name="default" id="autosuggest__result_item-9" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="9" data-section-name="default" id="autosuggest__result-item--9" class="autosuggest__result-item">
             minecraft
           </div>
-          <div role="option" data-suggestion-index="10" data-section-name="default" id="autosuggest__result_item-10" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="10" data-section-name="default" id="autosuggest__result-item--10" class="autosuggest__result-item">
             free worksheets
           </div>
-          <div role="option" data-suggestion-index="11" data-section-name="default" id="autosuggest__result_item-11" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="11" data-section-name="default" id="autosuggest__result-item--11" class="autosuggest__result-item">
             4th grade
           </div>
-          <div role="option" data-suggestion-index="12" data-section-name="default" id="autosuggest__result_item-12" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="12" data-section-name="default" id="autosuggest__result-item--12" class="autosuggest__result-item">
             snap circuits
           </div>
-          <div role="option" data-suggestion-index="13" data-section-name="default" id="autosuggest__result_item-13" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="13" data-section-name="default" id="autosuggest__result-item--13" class="autosuggest__result-item">
             bath toys
           </div>
-          <div role="option" data-suggestion-index="14" data-section-name="default" id="autosuggest__result_item-14" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="14" data-section-name="default" id="autosuggest__result-item--14" class="autosuggest__result-item">
             channies
           </div>
-          <div role="option" data-suggestion-index="15" data-section-name="default" id="autosuggest__result_item-15" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="15" data-section-name="default" id="autosuggest__result-item--15" class="autosuggest__result-item">
             fred
           </div>
-          <div role="option" data-suggestion-index="16" data-section-name="default" id="autosuggest__result_item-16" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="16" data-section-name="default" id="autosuggest__result-item--16" class="autosuggest__result-item">
             lego
           </div>
-          <div role="option" data-suggestion-index="17" data-section-name="default" id="autosuggest__result_item-17" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="17" data-section-name="default" id="autosuggest__result-item--17" class="autosuggest__result-item">
             math life of fred
           </div>
-          <div role="option" data-suggestion-index="18" data-section-name="default" id="autosuggest__result_item-18" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="18" data-section-name="default" id="autosuggest__result-item--18" class="autosuggest__result-item">
             multiplication
           </div>
-          <div role="option" data-suggestion-index="19" data-section-name="default" id="autosuggest__result_item-19" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="19" data-section-name="default" id="autosuggest__result-item--19" class="autosuggest__result-item">
             thinking tree
           </div>
         </div>
@@ -143,25 +230,25 @@ exports[`Autosuggest can render simplest component with single onSelected 1`] = 
 `;
 
 exports[`Autosuggest can render slots 1`] = `
-<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input-open">
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="G" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div class="header-dude"></div>
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
-        <div class="autosuggest__result_wrapper">
-          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item">
+        <div class="autosuggest__result-wrapper">
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             <h1>clifford kits</h1>
           </div>
-          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result_item-1" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
             <h1>friendly chemistry</h1>
           </div>
-          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result_item-2" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item">
             <h1>phonics</h1>
           </div>
-          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result_item-3" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
             <h1>life of fred</h1>
           </div>
-          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result_item-4" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
             <h1>life of fred math</h1>
           </div>
         </div>
@@ -173,24 +260,24 @@ exports[`Autosuggest can render slots 1`] = `
 `;
 
 exports[`Autosuggest can render suggestions 1`] = `
-<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result_item-0" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="clifford kits" class="autosuggest__input-open">
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result-item--0" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="clifford kits" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
-        <div class="autosuggest__result_wrapper">
-          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item-highlighted autosuggest__result_item">
+        <div class="autosuggest__result-wrapper">
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item--highlighted autosuggest__result-item">
             clifford kits
           </div>
-          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result_item-1" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
             friendly chemistry
           </div>
-          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result_item-2" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item">
             phonics
           </div>
-          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result_item-3" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
             life of fred
           </div>
-          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result_item-4" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
             life of fred math
           </div>
         </div>
@@ -217,24 +304,24 @@ exports[`Autosuggest can use escape key to exit 1`] = `
 `;
 
 exports[`Autosuggest is aria complete 1`] = `
-<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result_item-2" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="phonics" class="autosuggest__input-open">
+<div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result-item--2" aria-haspopup="true" aria-expanded="true" id="autosuggest__input" placeholder="Type 'G'" value="phonics" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result -default">
-        <div class="autosuggest__result_wrapper">
-          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result_item-0" class="autosuggest__result_item">
+        <div class="autosuggest__result-wrapper">
+          <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
-          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result_item-1" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="1" data-section-name="default" id="autosuggest__result-item--1" class="autosuggest__result-item">
             friendly chemistry
           </div>
-          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result_item-2" class="autosuggest__result_item-highlighted autosuggest__result_item">
+          <div role="option" data-suggestion-index="2" data-section-name="default" id="autosuggest__result-item--2" class="autosuggest__result-item--highlighted autosuggest__result-item">
             phonics
           </div>
-          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result_item-3" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="3" data-section-name="default" id="autosuggest__result-item--3" class="autosuggest__result-item">
             life of fred
           </div>
-          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result_item-4" class="autosuggest__result_item">
+          <div role="option" data-suggestion-index="4" data-section-name="default" id="autosuggest__result-item--4" class="autosuggest__result-item">
             life of fred math
           </div>
         </div>

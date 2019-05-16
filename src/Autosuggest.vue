@@ -5,11 +5,11 @@
       :value="internalValue"
       :autocomplete="inputProps.autocomplete"
       role="combobox"
-      :class="[isOpen ? 'autosuggest__input-open' : '', inputProps['class']]"
+      :class="[isOpen ? 'autosuggest__input--open' : '', inputProps['class']]"
       v-bind="inputProps"
       aria-autocomplete="list"
       aria-owns="autosuggest__results"
-      :aria-activedescendant="isOpen && currentIndex !== null ? `autosuggest__result_item-${currentIndex}` : ''"
+      :aria-activedescendant="isOpen && currentIndex !== null ? `autosuggest__result-item--${currentIndex}` : ''"
       :aria-haspopup="isOpen ? 'true' : 'false'"
       :aria-expanded="isOpen ? 'true' : 'false'"
       @input="inputHandler"
@@ -32,15 +32,43 @@
           :normalize-item-function="normalizeItem"
           :render-suggestion="renderSuggestion"
           :section="cs"
-          :update-current-index="updateCurrentIndex"
+          @updateCurrentIndex="updateCurrentIndex"
         >
+          <template 
+            :slot="`before-section-${cs.name || cs.label}`"
+            slot-scope="{section, className}"
+          >
+            <slot
+              :name="`before-section-${cs.name || cs.label}`"
+              :section="section"
+              :className="className"
+            />
+          </template>
           <template slot-scope="{ suggestion, _key }">
-            <slot 
+            <slot
               :suggestion="suggestion" 
               :index="_key"
             >
               {{ suggestion.item }}
             </slot>
+          </template>
+          <template 
+            :slot="`after-section-${cs.name || cs.label}`"
+            slot-scope="{section}"
+          >
+            <slot 
+              :name="`after-section-${cs.name || cs.label}`" 
+              :section="section"
+            />
+          </template>
+          <template
+            slot="after-section"
+            slot-scope="{section}"
+          >
+            <slot
+              name="after-section"
+              :section="section"
+            />
           </template>
         </component>
         <slot name="after-suggestions" />
@@ -51,8 +79,25 @@
 
 <script>
 
+/**
+ * @typedef {Object} ResultSection
+ * @prop {String} name - Name of the section
+ * @prop {String} label - What is displayed in the section header, is exists
+ * @prop {String} type - Used to decide which component to use for section
+ * @prop {Number} limit - max number of results
+ * @prop {Array} data - the results
+ * @prop {Number} start_index - tracks section start reference point
+ * @prop {Number} end_index - tracks section end reference point
+ */
+
 import DefaultSection from "./parts/DefaultSection.js";
 import { addClass, removeClass } from "./utils";
+
+const defaultSectionConfig = {
+  name: "default",
+  type: "default-section"
+}
+
 export default {
   name: "Autosuggest",
   components: {
@@ -145,10 +190,6 @@ export default {
       defaultInputProps: {
         autocomplete: "off",
       },
-      defaultSectionConfig: {
-        name: "default",
-        type: "default-section"
-      },
       clientXMouseDownInitial: null
     };
   },
@@ -192,33 +233,32 @@ export default {
     isOpen() {
       return this.shouldRenderSuggestions(this.totalResults, this.loading)
     },
-    /**
-     * @returns <Array>
-     */
+    /** @returns {Array<ResultSection>} */
     computedSections() {
       let tmpSize = 0
-
       return this.suggestions.map(section => {
         if (!section.data) return;
 
-        const name = section.name ? section.name : this.defaultSectionConfig.name;
-
-        let { type, limit, label, footer } = this.sectionConfigs[name];
-
-        limit = limit || this.limit
+        const name = section.name ? section.name : defaultSectionConfig.name;
+        let limit, label, type = null
+        
+        if (this.sectionConfigs[name]) {
+          limit = this.sectionConfigs[name].limit
+          type = this.sectionConfigs[name].type
+          label = this.sectionConfigs[name].label
+        }
 
         /** Set defaults for section configs. */
-        type = type ? type : this.defaultSectionConfig.type;
+        type = type ? type : defaultSectionConfig.type;
 
+        limit = limit || this.limit
         limit = limit ? limit : Infinity;
         limit = section.data.length < limit ? section.data.length : limit;
         label = label ? label : section.label;
-        footer = footer ? footer : section.footer;
 
         const computedSection = {
           name,
           label,
-          footer,
           type,
           limit,
           data: section.data,
@@ -330,7 +370,7 @@ export default {
             const direction = keyCode === 40 ? 1 : -1;
             const newIndex = parseInt(this.currentIndex) + direction;
 
-            this.setCurrentIndex(newIndex, this.totalResults, direction);
+            this.setCurrentIndex(newIndex, this.totalResults);
             this.didSelectFromOptions = true;
             if (this.totalResults > 0 && this.currentIndex >= 0) {
               this.setChangeItem(this.getItemByIndex(this.currentIndex));
@@ -378,7 +418,7 @@ export default {
         this.ensureItemVisible(item, this.currentIndex);
       }
     },
-    normalizeItem(name, type, label, item) {
+    normalizeItem(name, type, label, item) {  
       return {
         name,
         type,
@@ -395,7 +435,7 @@ export default {
         return;
       }
 
-      const itemElement = this.$el.querySelector(`#autosuggest__result_item-${index}`);
+      const itemElement = this.$el.querySelector(`#autosuggest__result-item--${index}`);
       if (!itemElement) {
         return;
       }
@@ -411,20 +451,18 @@ export default {
         resultsScrollScrollTop + resultsScrollWindowHeight
       ) {
         /** Current item goes below visible scroll window */
-        resultsScrollElement.scrollTo(
-          0,
-          itemHeight + currentItemScrollOffset - resultsScrollWindowHeight
-        );
+        resultsScrollElement.scrollTop = itemHeight + currentItemScrollOffset - resultsScrollWindowHeight;
       } else if (currentItemScrollOffset < resultsScrollScrollTop && resultsScrollScrollTop > 0) {
         /** Current item goes above visible scroll window */
-        resultsScrollElement.scrollTo(0, currentItemScrollOffset);
+        resultsScrollElement.scrollTop = currentItemScrollOffset;
       }
     },
     updateCurrentIndex(index) {
-      this.currentIndex = index;
+      this.setCurrentIndex(index, -1, true);
     },
     clickedOnScrollbar(e, mouseX){
       const results = this.$el.querySelector(`.${this.componentAttrClassAutosuggestResults}`);
+
       const mouseIsInsideScrollbar = results && results.clientWidth <= (mouseX + 17) && 
         mouseX + 17 <= results.clientWidth + 34
       return e.target.tagName === 'DIV' && results && mouseIsInsideScrollbar || false;
@@ -435,16 +473,11 @@ export default {
     },
     onDocumentMouseUp(e) {
       /** Do not re-render list on input click  */
-      const isFooter = e.target.classList.contains('autosuggest__result_footer')
       const isChild = this.$el.contains(e.target);
 
       if (isChild && e.target.tagName === 'INPUT' ||
         (this.clickedOnScrollbar(e, this.clientXMouseDownInitial))) {
         return;
-      }
-
-      if(isFooter && e.target.tagName === 'A') {
-        window.location.href = e.target.href
       }
       
       /** Clicks outside of dropdown to exit */
@@ -459,23 +492,22 @@ export default {
       this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
       this.listeners.selected(true);
     },
-    setCurrentIndex(newIndex, limit = -1, direction) {
+
+    setCurrentIndex(newIndex, limit = -1, onHover = false) {
       let adjustedValue = newIndex;
-
-      // if we hit the lower limit then stop iterating the index
-      if (this.currentIndex === null) {
-        adjustedValue = 0;
+      
+      if (!onHover){
+        const hitLowerLimt = this.currentIndex === null
+        const hitUpperLimit = newIndex >= limit
+        if (hitLowerLimt || hitUpperLimit) {
+          adjustedValue = 0;
+        }
       }
-
-      // if we hit the upper limit then just stop iterating the index
-      if (newIndex >= limit) {
-        adjustedValue = 0;
-      }
-
+      
       this.currentIndex = adjustedValue;
-      const element = this.$el.querySelector(`#autosuggest__result_item-${this.currentIndex}`);
+      const element = this.$el.querySelector(`#autosuggest__result-item--${this.currentIndex}`);
+      const hoverClass = "autosuggest__result-item--highlighted";
 
-      const hoverClass = "autosuggest__result_item-highlighted";
       if (this.$el.querySelector(`.${hoverClass}`)) {
         removeClass(this.$el.querySelector(`.${hoverClass}`), hoverClass);
       }
