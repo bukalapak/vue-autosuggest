@@ -46,16 +46,18 @@ const DefaultSection = {
       const beforeSection = this.$scopedSlots[`before-section-${this.section.name}`]
       const beforeClassName = `autosuggest__results-before autosuggest__results-before--${this.section.name}`
 
-      const before = beforeSection && beforeSection({
+      const before = beforeSection({
         section: this.section,
         className: beforeClassName
       })
 
-      if (before[0] && !this.section.label) {
+      if (before != undefined && !this.section.label) {
         return before[0]
       } else if(this.section.label) {
         return this.$createElement('h3',{ class: beforeClassName }, this.section.label)
-      } 
+      } else {
+        return ''
+      }
     },
     genFooter() {
       if(this.section.footer) {
