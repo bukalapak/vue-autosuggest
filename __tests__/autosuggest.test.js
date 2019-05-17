@@ -296,7 +296,7 @@ describe("Autosuggest", () => {
 
     input.trigger("click");
     input.setValue("G");
-    expect(wrapper.find("div.autosuggest__result-wrapper h3").element.innerHTML).toBe(
+    expect(wrapper.find("h3.autosuggest__result-title").element.innerHTML).toBe(
       props.sectionConfigs.default.label
     );
     const renderer = createRenderer();
@@ -550,7 +550,7 @@ describe("Autosuggest", () => {
 
     input.trigger("click");
     input.setValue("G");
-    expect(wrapper.find("div.autosuggest__result-wrapper h3").element.innerHTML).toBe(
+    expect(wrapper.find("h3.autosuggest__result-title").element.innerHTML).toBe(
       props.sectionConfigs.default.label
     );
     const renderer = createRenderer();
