@@ -54,33 +54,18 @@ const DefaultSection = {
       if (before != undefined && !this.section.label) {
         return before[0]
       } else if(this.section.label) {
-        return this.$createElement('h3',{ class: beforeClassName }, this.section.label)
+        return this.$createElement('div',{ class: beforeClassName }, [
+          this.$createElement('h3',{ class: 'autosuggest__result-title' }, this.section.label)
+        ])
       } else {
         return ''
       }
     },
-    genFooter() {
-      if(this.section.footer) {
-        return this.$createElement('a', { 
-          class: `autosuggest__result-footer -${this.section.name}`,
-          attrs: {
-            href: this.section.footer.link
-          },
-        }, 
-        this.section.footer.label)
-      }
-    },
 
     genResult() {
-      const slots = {
-        afterSectionDefault: this.$scopedSlots[`after-section`],
-        afterSectionNamed: this.$scopedSlots[`after-section-${this.section.name}`]
-      }
-
       return this.$createElement('div', 
       {class: 'autosuggest__result-wrapper'},
       [
-        this.genTitle(),
         this.list.map((val, key) => {
           let item = this.normalizeItemFunction(this.section.name, this.section.type, this.section.label, val)
           return this.$createElement(
@@ -110,6 +95,25 @@ const DefaultSection = {
             })]
           );
         }),
+      ])
+    }
+  },
+  // eslint-disable-next-line no-unused-vars
+  render(h) {
+    const slots = {
+      afterSectionDefault: this.$scopedSlots[`after-section`],
+      afterSectionNamed: this.$scopedSlots[`after-section-${this.section.name}`]
+    }
+
+    return h(
+      "div",
+      {
+        class: this.wrapperClassName,
+        attrs: { role: "listbox", "aria-labelledby": "autosuggest" }
+      },
+      [
+        this.genTitle(),
+        this.genResult(),
         slots.afterSectionDefault && slots.afterSectionDefault({ 
           section: this.section,
           className: `autosuggest__results-after autosuggest__results-after--${this.section.name}`
@@ -118,20 +122,6 @@ const DefaultSection = {
           section: this.section,
           className: `autosuggest__results_after autosuggest__results-after--${this.section.name}`
         })
-      ])
-    }
-  },
-  // eslint-disable-next-line no-unused-vars
-  render(h) {
-    return h(
-      "div",
-      {
-        class: this.wrapperClassName,
-        attrs: { role: "listbox", "aria-labelledby": "autosuggest" }
-      },
-      [
-        this.genResult(),
-        this.genFooter()
       ]
     );
   }
