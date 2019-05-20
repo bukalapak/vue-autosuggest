@@ -44,9 +44,9 @@ describe("Autosuggest", () => {
 
   const defaultProps = {
     suggestions: filteredOptions,
+    placeholder: "Type 'G'",
     inputProps: {
       id,
-      placeholder: "Type 'G'"
     },
     sectionConfigs: {
       default: {

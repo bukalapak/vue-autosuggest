@@ -15,6 +15,7 @@
       @input="inputHandler"
       @keydown="handleKeyStroke"
       v-on="listeners"
+      :placeholder="placeholder"
     ><slot name="after-input" />
     <div :class="componentAttrClassAutosuggestResultsContainer">
       <div 
@@ -176,6 +177,11 @@ export default {
       type: String,
       required: false,
       default: "autosuggest__results"
+    },
+    placeholder: {
+      type: String,
+      required: false,
+      default: 'Search...'
     }
   },
   data() {
