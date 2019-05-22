@@ -95,7 +95,6 @@ export default {
       },
       inputProps: {
         id: "autosuggest__input",
-        placeholder: "Search"
       }
     };
   },
