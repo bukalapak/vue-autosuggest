@@ -46,7 +46,7 @@ const DefaultSection = {
       const beforeSection = this.$scopedSlots[`before-section-${this.section.name}`]
       const beforeClassName = `autosuggest__results-before autosuggest__results-before--${this.section.name}`
 
-      const before = beforeSection({
+      const before = beforeSection && beforeSection({
         section: this.section,
         className: beforeClassName
       })
