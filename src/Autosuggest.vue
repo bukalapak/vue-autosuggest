@@ -12,10 +12,10 @@
       :aria-activedescendant="isOpen && currentIndex !== null ? `autosuggest__result-item--${currentIndex}` : ''"
       :aria-haspopup="isOpen ? 'true' : 'false'"
       :aria-expanded="isOpen ? 'true' : 'false'"
+      :placeholder="placeholder"
       @input="inputHandler"
       @keydown="handleKeyStroke"
       v-on="listeners"
-      :placeholder="placeholder"
     ><slot name="after-input" />
     <div :class="componentAttrClassAutosuggestResultsContainer">
       <div 
