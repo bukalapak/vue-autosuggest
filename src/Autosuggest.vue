@@ -153,12 +153,18 @@ export default {
       default: () => {
         return {
           default: {
-            onSelected: null
+            onSelected: null,
+            onDeleted: null
           }
         };
       }
     },
     onSelected: {
+      type: Function,
+      required: false,
+      default: null
+    },
+    onDeleted: {
       type: Function,
       required: false,
       default: null
@@ -214,10 +220,22 @@ export default {
 
           this.ensureItemVisible(this.currentItem, this.currentIndex);
         },
-        selected: () => {
+        deleted: (e) => {
+          if (
+            this.currentItem &&
+            this.sectionConfigs[this.currentItem.name] &&
+            this.sectionConfigs[this.currentItem.name].onDeleted
+          ) {
+            this.sectionConfigs[this.currentItem.name].onDeleted(this.currentItem);
+          } else if (this.$listeners.deleted) {
+            this.$emit('deleted', this.currentItem);
+          }
+        },
+        selected: (e) => {
           // Determine which onSelected to fire. This can be either from inside
           // a section's object, from the @selected event, or from the deprecated
           // native onSelected prop (to be removed later)
+
           if (
             this.currentItem &&
             this.sectionConfigs[this.currentItem.name] &&
@@ -474,10 +492,14 @@ export default {
       return e.target.tagName === 'DIV' && results && mouseIsInsideScrollbar || false;
     },
     onDocumentMouseDown(e) {
+
+      /*  eslint-disable-next-line no-console */
       var rect = e.target.getBoundingClientRect ? e.target.getBoundingClientRect() : 0;
       this.clientXMouseDownInitial = e.clientX - rect.left;
     },
     onDocumentMouseUp(e) {
+
+
       /** Do not re-render list on input click  */
       const isChild = this.$el.contains(e.target);
 
@@ -490,6 +512,13 @@ export default {
       if (this.currentIndex === null || !this.isOpen) {
         this.loading = true;
         return;
+      }
+
+      if (isChild && e.target.className === 'v-omnisearch__result-delete') {
+        this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
+        this.listeners.deleted(true);
+        e.path[2].remove()
+        return  
       }
 
       /** Selects an item in the dropdown */
