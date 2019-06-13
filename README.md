@@ -1,4 +1,6 @@
 ﻿<div>
+<p align="center"><img width="100" src="docs/logo.png" alt="Vue logo"></a></p>
+
 <h1>vue-autosuggest</h1>
 
 <p>🔍 Autosuggest component built for Vue.</a></p>
@@ -11,8 +13,9 @@
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][LICENSE]
+[![gzip size][size-badge]](https://unpkg.com/vue-autosuggest@latest)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
 
@@ -231,7 +234,7 @@ li:hover {
 }
 
 #autosuggest { width: 100%; display: block;}
-.autosuggest__result_item-highlighted {
+.autosuggest__results-item--highlighted {
   background-color: rgba(51, 217, 178,0.2);
 }
 </style>
@@ -245,16 +248,17 @@ For more advanced usage, check out the examples below, and explore the
 ## [Slots](#slots)
 
 ### header/footer
-Slots for injecting content above all the results inside the results container.
+Slots for injecting content around the results/input. Useful for header/footer like slots or empty state.
 
 ```html
 <vue-autosuggest ...>
-  <template slot="header">
-    <h1>header content goes here</h1>
-  </template>
-  <template slot="footer">
-    <h1>footer content goes here</h1>
-  </template>
+  <template slot="before-input"> content before the <input /> goes here </template>
+  <template slot="after-input"> content after the <input /> goes here </template>
+  <template slot="before-suggestions"> content before the <ul> goes here </template>
+  <template slot="before-section-<section.name e.g. 'default'>"> section header content for specific section goes here </template>
+  <template slot="after-section-<section.name e.g. 'default'>"> footer content goes here for specific section. </template>
+  <template slot="after-section"> Default footer content for all sections </template>
+  <template slot="after-suggestions"> content after the <ul> goes here </template>
 </vue-autosuggest>
 ```
 
@@ -301,7 +305,6 @@ vue-autosuggest does not have an opinion about how you render the items in your 
 | Prop                     | Type                |  Required  | Description                                                                                                                                                                  |
 | :----------------------- | :------------------ | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`id`](#inputPropsTable) | String              |     ✓      | id attribute on `<input>`.                                                                                                                                                   |
-| [`initial-value`](#)      | String              |            | Set some initial value for the `<input>`.                                                                                                                                    |
 | Any DOM Props            | \*                  |            | You can add any props to `<input>` as the component will `v-bind` inputProps. Similar to rest spread in JSX. See more details here: https://vuejs.org/v2/api/#v-bind. The `name` attribute is set to "`q`" by default.         |
 
 <a name="sectionConfigsProp"></a>
@@ -314,7 +317,6 @@ each section.
 | Prop         | Type     | Required | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :----------- | :------- | :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `on-selected` | Function |    ✓     | Determine behavior for what should happen when a suggestion is selected. e.g. Submit a form, open a link, update a vue model, tweet at Ken Wheeler etc.                                                                                                                                                                                                                                                                                                                                                                     |
-| `type`       | String   |          | Vue component name for specifying which type to implement using Vue's `<component :is="componentName"></component>` functionality. See [DefaultSection.vue](https://github.com/darrenjennings/vue-autosuggest/blob/master/src/parts/DefaultSection.vue) for scaffolding a new type. You must declare your component in the scope of the app using `Vue.component()`. You can extend DefaultSection using `extends`. See [UrlSection](https://github.com/darrenjennings/vue-autosuggest/blob/master/docs/UrlSection.vue) for an example. |
 | `limit`      | Number   |          | Limit each section by some value. Default: `Infinity`                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 Below we have defined a `default` section and a `blog` section. The `blog` section has a component
@@ -392,9 +394,11 @@ getSuggestionValue(suggestion) {
 Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/5770711?v=4" width="100px;"/><br /><sub><b>Darren Jennings</b></sub>](https://darrenjennings.github.io)<br />[💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Code") [📖](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Documentation") [🚇](#infra-darrenjennings "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Tests") [🎨](#design-darrenjennings "Design") [💡](#example-darrenjennings "Examples") | [<img src="https://avatars2.githubusercontent.com/u/411772?v=4" width="100px;"/><br /><sub><b>Evgeniy Kulish</b></sub>](https://github.com/ekulish)<br />[💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=ekulish "Code") [🎨](#design-ekulish "Design") [💡](#example-ekulish "Examples") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=ekulish "Tests") | [<img src="https://avatars3.githubusercontent.com/u/1824850?v=4" width="100px;"/><br /><sub><b>Scott Smith</b></sub>](https://github.com/scottadamsmith)<br />[🐛](https://github.com/darrenjennings/vue-autosuggest/issues?q=author%3Ascottadamsmith "Bug reports") [💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=scottadamsmith "Code") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=scottadamsmith "Tests") |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/5770711?v=4" width="100px;"/><br /><sub><b>Darren Jennings</b></sub>](https://guuu.io)<br />[💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Code") [📖](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Documentation") [🚇](#infra-darrenjennings "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=darrenjennings "Tests") [🎨](#design-darrenjennings "Design") [💡](#example-darrenjennings "Examples") | [<img src="https://avatars2.githubusercontent.com/u/411772?v=4" width="100px;"/><br /><sub><b>Evgeniy Kulish</b></sub>](https://github.com/ekulish)<br />[💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=ekulish "Code") [🎨](#design-ekulish "Design") [💡](#example-ekulish "Examples") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=ekulish "Tests") | [<img src="https://avatars3.githubusercontent.com/u/1824850?v=4" width="100px;"/><br /><sub><b>Scott Smith</b></sub>](https://github.com/scottadamsmith)<br />[🐛](https://github.com/darrenjennings/vue-autosuggest/issues?q=author%3Ascottadamsmith "Bug reports") [💻](https://github.com/darrenjennings/vue-autosuggest/commits?author=scottadamsmith "Code") [⚠️](https://github.com/darrenjennings/vue-autosuggest/commits?author=scottadamsmith "Tests") | [<img src="https://avatars0.githubusercontent.com/u/864496?v=4" width="100px;"/><br /><sub><b>Fernando Machuca</b></sub>](https://github.com/chuca)<br />[🎨](#design-chuca "Design") |
+| :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Thanks to [@chuca](https://github.com/chuca) for the logo design.
 
 This project follows the [all-contributors][all-contributors] specification. Contributions of any
 kind welcome!
@@ -407,6 +411,7 @@ MIT
 [node]: https://nodejs.org
 [build-badge]: https://img.shields.io/travis/darrenjennings/vue-autosuggest.svg?style=flat-square
 [build]: https://travis-ci.org/darrenjennings/vue-autosuggest
+[size-badge]: https://img.badgesize.io/https://unpkg.com/vue-autosuggest@latest/dist/vue-autosuggest.esm.js?compression=gzip&style=flat-square
 [coverage-badge]: https://img.shields.io/codecov/c/github/darrenjennings/vue-autosuggest.svg?style=flat-square
 [coverage]: https://codecov.io/github/darrenjennings/vue-autosuggest
 [version-badge]: https://img.shields.io/npm/v/vue-autosuggest.svg?style=flat-square

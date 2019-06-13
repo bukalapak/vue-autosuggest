@@ -1,6 +1,6 @@
 {
-  "name": "@bukalapak/vue-autosuggest",
-  "version": "2.1.0-mod",
+  "name": "vue-autosuggest",
+  "version": "2.0.0-beta.8",
   "description": "Vue autosuggest component.",
   "engines": {
     "node": "> 4",
@@ -9,12 +9,14 @@
   "scripts": {
     "commit": "git-cz",
     "start": "webpack-dev-server --config docs/webpack.config.js",
+    "lint": "eslint --ext .js,.vue src",
     "build": "yarn build:docs && yarn build:esm && yarn build:umd && yarn storybook:build",
     "build:docs": "NODE_ENV=production webpack --config docs/webpack.config.js",
     "build:esm": "rollup -c ./build/rollup.esm.config.js",
     "build:umd": "rollup -c ./build/rollup.umd.config.js",
     "deploy": "yarn build && npm publish",
     "test": "yarn jest",
+    "test-compat": "./__tests__/test-compat-all.sh",
     "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov",
     "test:coverage": "yarn jest -- --coverage",
     "test:update": "yarn test --updateSnapshot",
@@ -25,7 +27,8 @@
     "storybook:build": "build-storybook -c .storybook -o docs/storybook"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "dist/vue-autosuggest.js",
   "module": "dist/vue-autosuggest.esm.js",
@@ -53,21 +56,24 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bukalapak/vue-autosuggest.git"
+    "url": "https://github.com/darrenjennings/vue-autosuggest.git"
   },
   "bugs": {
-    "url": "https://github.com/bukalapak/vue-autosuggest/issues"
+    "url": "https://github.com/darrenjennings/vue-autosuggest/issues"
   },
-  "homepage": "https://github.com/bukalapak/vue-autosuggest#readme",
+  "homepage": "https://github.com/darrenjennings/vue-autosuggest#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
+  "peerDependencies": {
+    "vue": ">= 2.5.0"
+  },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
     "@storybook/vue": "3.2.15",
-    "@vue/test-utils": "^1.0.0-beta.25",
+    "@vue/test-utils": "1.0.0-beta.25",
     "babel-core": "6.26.0",
     "babel-eslint": "^8.0.2",
     "babel-jest": "22.4.0",
@@ -88,6 +94,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0-beta.3",
     "husky": "0.14.3",
+    "jest": "23.6.0",
     "jest-serializer-vue": "^2.0.2",
     "kcd-scripts": "0.27.1",
     "prettier": "1.14.3",
