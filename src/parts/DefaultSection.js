@@ -43,17 +43,8 @@ const DefaultSection = {
       this.$emit('updateCurrentIndex', null)
     },
     genTitle(){
-    const slots = {
-      beforeSection: this.$scopedSlots[`before-section-${this.section.name}`],
-      afterSectionDefault: this.$scopedSlots[`after-section`],
       const beforeSection = this.$scopedSlots[`before-section-${this.section.name}`]
-    }
-    
       const beforeClassName = `autosuggest__results-before autosuggest__results-before--${this.section.name}`
-    const before = slots.beforeSection && slots.beforeSection({
-      section: this.section,
-      className: beforeClassName
-    }) || []
 
       const before = beforeSection && beforeSection({
         section: this.section,
@@ -70,7 +61,6 @@ const DefaultSection = {
         return ''
       }
     },
-
     genResult() {
       return this.$createElement('div', 
       {class: 'autosuggest__result-wrapper'},
@@ -99,7 +89,7 @@ const DefaultSection = {
             },
             [this.renderSuggestion ? this.renderSuggestion(item) 
               : this.$scopedSlots.default && this.$scopedSlots.default({
-                _key: key,
+                key: key,
                 suggestion: item
             })]
           );
