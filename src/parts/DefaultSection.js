@@ -20,11 +20,8 @@ const DefaultSection = {
       }
       return data.slice(0, limit);
     },
-    className: function() {
-      return `autosuggest__result-title -${this.section.name}`;
-    },
     wrapperClassName: function() {
-      return `autosuggest__result autosuggest__result__section -${this.section.name}`;
+      return `autosuggest__result autosuggest__result-section -${this.section.name}`;
     }
   },
   methods: {
@@ -44,7 +41,7 @@ const DefaultSection = {
     },
     genTitle(){
       const beforeSection = this.$scopedSlots[`before-section-${this.section.name}`]
-      const beforeClassName = `autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--${this.section.name}`
+      const beforeClassName = `autosuggest__result-section__title autosuggest__results-before autosuggest__results-before--${this.section.name}`
 
       const before = beforeSection && beforeSection({
         section: this.section,
@@ -55,7 +52,7 @@ const DefaultSection = {
         return before[0]
       } else if(this.section.label) {
         return this.$createElement('div',{ class: beforeClassName }, [
-          this.$createElement('h3',{ class: 'autosuggest__result-title' }, this.section.label)
+          this.$createElement('h3', this.section.label)
         ])
       } else {
         return ''
@@ -63,7 +60,7 @@ const DefaultSection = {
     },
     genResult() {
       return this.$createElement('div', 
-      {class: 'autosuggest__result-wrapper'},
+      {class: 'autosuggest-result-wrapper'},
       [
         this.list.map((val, key) => {
           let item = this.normalizeItemFunction(this.section.name, this.section.type, this.section.label, val)
@@ -115,11 +112,11 @@ const DefaultSection = {
         this.genResult(),
         slots.afterSectionDefault && slots.afterSectionDefault({ 
           section: this.section,
-          className: `autosuggest__results-after autosuggest__results-after--${this.section.name}`
+          className: `autosuggest__result-after autosuggest__result-after--${this.section.name}`
         }),
         slots.afterSectionNamed && slots.afterSectionNamed({ 
           section: this.section,
-          className: `autosuggest__results_after autosuggest__results-after--${this.section.name}`
+          className: `autosuggest__result_after autosuggest__result-after--${this.section.name}`
         })
       ]
     );

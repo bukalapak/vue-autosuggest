@@ -28,11 +28,11 @@ exports[`Autosuggest can display section header 1`] = `
 <div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" placeholder="Type 'G'" id="autosuggest__input" value="G" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--default">
-          <h3 class="autosuggest__result-title">Suggestions</h3>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest__result-section__title autosuggest__results-before autosuggest__results-before--default">
+          <h3>Suggestions</h3>
         </div>
-        <div class="autosuggest__result-wrapper">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
@@ -83,11 +83,11 @@ exports[`Autosuggest can render section slots 1`] = `
 <div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" placeholder="Type 'G'" id="autosuggest__input" value="G" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--default">
-          <h3 class="autosuggest__result-title">Suggestions</h3>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest__result-section__title autosuggest__results-before autosuggest__results-before--default">
+          <h3>Suggestions</h3>
         </div>
-        <div class="autosuggest__result-wrapper">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
@@ -105,9 +105,9 @@ exports[`Autosuggest can render section slots 1`] = `
           </div>
         </div>
       </div>
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -dogs">
-        <li class="autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--dogs">The Dogs</li>
-        <div class="autosuggest__result-wrapper">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -dogs">
+        <li class="autosuggest__result-section__title autosuggest__results-before autosuggest__results-before--dogs">The Dogs</li>
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="5" data-section-name="dogs" id="autosuggest__result-item--5" class="autosuggest__result-item">
             spike
           </div>
@@ -119,9 +119,9 @@ exports[`Autosuggest can render section slots 1`] = `
           </div>
         </div>
       </div>
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -cats">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -cats">
         <li>Moar Cats is good</li>
-        <div class="autosuggest__result-wrapper">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="8" data-section-name="cats" id="autosuggest__result-item--8" class="autosuggest__result-item">
             sassy
           </div>
@@ -133,9 +133,9 @@ exports[`Autosuggest can render section slots 1`] = `
           </div>
         </div>
       </div>
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -zeu">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -zeu">
         <li>zoo animals?</li>
-        <div class="autosuggest__result-wrapper">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="11" data-section-name="zeu" id="autosuggest__result-item--11" class="autosuggest__result-item">
             elephant
           </div>
@@ -144,11 +144,11 @@ exports[`Autosuggest can render section slots 1`] = `
           </div>
         </div>
       </div>
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -Uhh">
-        <div class="autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--Uhh">
-          <h3 class="autosuggest__result-title">uhh</h3>
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -Uhh">
+        <div class="autosuggest__result-section__title autosuggest__results-before autosuggest__results-before--Uhh">
+          <h3>uhh</h3>
         </div>
-        <div class="autosuggest__result-wrapper">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="13" data-section-name="Uhh" id="autosuggest__result-item--13" class="autosuggest__result-item">
             something
           </div>
@@ -166,8 +166,8 @@ exports[`Autosuggest can render simplest component with single onSelected 1`] = 
 <div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="true" aria-expanded="true" placeholder="Type 'G'" id="autosuggest__input" value="phonics" class="autosuggest__input--open cool-class">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result-wrapper">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
@@ -240,8 +240,8 @@ exports[`Autosuggest can render slots 1`] = `
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
       <div class="header-dude"></div>
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result-wrapper">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             <h1>clifford kits</h1>
           </div>
@@ -269,8 +269,8 @@ exports[`Autosuggest can render suggestions 1`] = `
 <div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result-item--0" aria-haspopup="true" aria-expanded="true" placeholder="Type 'G'" id="autosuggest__input" value="clifford kits" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result-wrapper">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item--highlighted autosuggest__result-item">
             clifford kits
           </div>
@@ -313,8 +313,8 @@ exports[`Autosuggest is aria complete 1`] = `
 <div id="autosuggest"><input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="autosuggest__result-item--2" aria-haspopup="true" aria-expanded="true" placeholder="Type 'G'" id="autosuggest__input" value="phonics" class="autosuggest__input--open">
   <div class="autosuggest__results-container">
     <div aria-labelledby="autosuggest" class="autosuggest__results">
-      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result__section -default">
-        <div class="autosuggest__result-wrapper">
+      <div role="listbox" aria-labelledby="autosuggest" class="autosuggest__result autosuggest__result-section -default">
+        <div class="autosuggest-result-wrapper">
           <div role="option" data-suggestion-index="0" data-section-name="default" id="autosuggest__result-item--0" class="autosuggest__result-item">
             clifford kits
           </div>
