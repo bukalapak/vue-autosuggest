@@ -514,8 +514,9 @@ export default {
         return;
       }
 
+
       if (isChild && e.target.className === 'v-omnisearch__result-delete') {
-        this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
+        // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
         e.path[2].remove()
         return  
