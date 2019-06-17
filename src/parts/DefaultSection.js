@@ -24,7 +24,7 @@ const DefaultSection = {
       return `autosuggest__result-title -${this.section.name}`;
     },
     wrapperClassName: function() {
-      return `autosuggest__result -${this.section.name}`;
+      return `autosuggest__result autosuggest__result__section -${this.section.name}`;
     }
   },
   methods: {
@@ -44,14 +44,14 @@ const DefaultSection = {
     },
     genTitle(){
       const beforeSection = this.$scopedSlots[`before-section-${this.section.name}`]
-      const beforeClassName = `autosuggest__results-before autosuggest__results-before--${this.section.name}`
+      const beforeClassName = `autosuggest__result__section-title autosuggest__results-before autosuggest__results-before--${this.section.name}`
 
       const before = beforeSection && beforeSection({
         section: this.section,
         className: beforeClassName
-      })
+      }) || []
 
-      if (before != undefined && !this.section.label) {
+      if (before[0]) {
         return before[0]
       } else if(this.section.label) {
         return this.$createElement('div',{ class: beforeClassName }, [
@@ -89,7 +89,7 @@ const DefaultSection = {
             },
             [this.renderSuggestion ? this.renderSuggestion(item) 
               : this.$scopedSlots.default && this.$scopedSlots.default({
-                key: key,
+                _key: key,
                 suggestion: item
             })]
           );
