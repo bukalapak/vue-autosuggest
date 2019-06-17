@@ -19,6 +19,9 @@
         <template slot="after-suggestions">
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
+        <template slot="before-section-human"> section header content for specific section goes here </template>
+        <template slot="after-section-hobbits"> footer content goes here for specific section. </template>
+
       </vue-autosuggest>
     </div>
     <div style="padding-top:10px; margin-bottom: 10px;">
@@ -89,6 +92,15 @@ export default {
         default: {
           limit: 4
         },
+        human: {
+          limit: 6
+        },
+        elf: {
+          limit: 6
+        },
+        dwarf: {
+          limit: 6
+        },
         hobbits: {
           limit: 6
         }
@@ -112,7 +124,7 @@ export default {
 
         people.length > 0 &&
           filtered.push({
-            label: r,
+            name: r,
             data: people
           });
       })

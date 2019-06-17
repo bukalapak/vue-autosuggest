@@ -2,3682 +2,3682 @@ export default [
   {
     "Name": "Adanel",
     "Url": "http://lotr.wikia.com//wiki/Adanel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Adrahil I",
     "Url": "http://lotr.wikia.com//wiki/Adrahil_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Adrahil II",
     "Url": "http://lotr.wikia.com//wiki/Adrahil_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aegnor",
     "Url": "http://lotr.wikia.com//wiki/Aegnor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Aerin",
     "Url": "http://lotr.wikia.com//wiki/Aerin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aglahad",
     "Url": "http://lotr.wikia.com//wiki/Aglahad",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ailinel",
     "Url": "http://lotr.wikia.com//wiki/Ailinel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aldamir",
     "Url": "http://lotr.wikia.com//wiki/Aldamir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aldor",
     "Url": "http://lotr.wikia.com//wiki/Aldor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Algund",
     "Url": "http://lotr.wikia.com//wiki/Algund",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Almarian",
     "Url": "http://lotr.wikia.com//wiki/Almarian",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Almiel",
     "Url": "http://lotr.wikia.com//wiki/Almiel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Alphros",
     "Url": "http://lotr.wikia.com//wiki/Alphros",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Amandil",
     "Url": "http://lotr.wikia.com//wiki/Amandil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Amarië",
     "Url": "http://lotr.wikia.com//wiki/Amari%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Amdír",
     "Url": "http://lotr.wikia.com//wiki/Amd%C3%ADr",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Amlaith",
     "Url": "http://lotr.wikia.com//wiki/Amlaith",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Amras",
     "Url": "http://lotr.wikia.com//wiki/Amras",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Amrod",
     "Url": "http://lotr.wikia.com//wiki/Amrod",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Amroth",
     "Url": "http://lotr.wikia.com//wiki/Amroth",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Amrothos",
     "Url": "http://lotr.wikia.com//wiki/Amrothos",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Anairë",
     "Url": "http://lotr.wikia.com//wiki/Anair%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Anardil",
     "Url": "http://lotr.wikia.com//wiki/Anardil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Anborn",
     "Url": "http://lotr.wikia.com//wiki/Anborn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Andreth",
     "Url": "http://lotr.wikia.com//wiki/Andreth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Andróg",
     "Url": "http://lotr.wikia.com//wiki/Andr%C3%B3g",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Angamaitë",
     "Url": "http://lotr.wikia.com//wiki/Angamait%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Angbor",
     "Url": "http://lotr.wikia.com//wiki/Angbor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Angelimir",
     "Url": "http://lotr.wikia.com//wiki/Angelimir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Angrod",
     "Url": "http://lotr.wikia.com//wiki/Angrod",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Annael",
     "Url": "http://lotr.wikia.com//wiki/Annael",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Anárion",
     "Url": "http://lotr.wikia.com//wiki/An%C3%A1rion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ar-Adûnakhôr",
     "Url": "http://lotr.wikia.com//wiki/Ar-Ad%C3%BBnakh%C3%B4r",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ar-Gimilzôr",
     "Url": "http://lotr.wikia.com//wiki/Ar-Gimilz%C3%B4r",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ar-Pharazôn",
     "Url": "http://lotr.wikia.com//wiki/Ar-Pharaz%C3%B4n",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ar-Sakalthôr",
     "Url": "http://lotr.wikia.com//wiki/Ar-Sakalth%C3%B4r",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ar-Zimrathôn",
     "Url": "http://lotr.wikia.com//wiki/Ar-Zimrath%C3%B4n",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arador",
     "Url": "http://lotr.wikia.com//wiki/Arador",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Araglas",
     "Url": "http://lotr.wikia.com//wiki/Araglas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aragorn I",
     "Url": "http://lotr.wikia.com//wiki/Aragorn_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aragorn II Elessar",
     "Url": "http://lotr.wikia.com//wiki/Aragorn_II_Elessar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aragost",
     "Url": "http://lotr.wikia.com//wiki/Aragost",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arahad I",
     "Url": "http://lotr.wikia.com//wiki/Arahad_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arahad II",
     "Url": "http://lotr.wikia.com//wiki/Arahad_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arahael",
     "Url": "http://lotr.wikia.com//wiki/Arahael",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aranarth",
     "Url": "http://lotr.wikia.com//wiki/Aranarth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arantar",
     "Url": "http://lotr.wikia.com//wiki/Arantar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aranuir",
     "Url": "http://lotr.wikia.com//wiki/Aranuir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aranwë",
     "Url": "http://lotr.wikia.com//wiki/Aranw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Araphant",
     "Url": "http://lotr.wikia.com//wiki/Araphant",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Araphor",
     "Url": "http://lotr.wikia.com//wiki/Araphor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arassuil",
     "Url": "http://lotr.wikia.com//wiki/Arassuil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aratan",
     "Url": "http://lotr.wikia.com//wiki/Aratan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arathorn I",
     "Url": "http://lotr.wikia.com//wiki/Arathorn_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arathorn II",
     "Url": "http://lotr.wikia.com//wiki/Arathorn_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Araval",
     "Url": "http://lotr.wikia.com//wiki/Araval",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aravir",
     "Url": "http://lotr.wikia.com//wiki/Aravir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aravorn",
     "Url": "http://lotr.wikia.com//wiki/Aravorn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arciryas",
     "Url": "http://lotr.wikia.com//wiki/Arciryas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ardamir (son of Axantur)",
     "Url": "http://lotr.wikia.com//wiki/Ardamir_(son_of_Axantur)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aredhel",
     "Url": "http://lotr.wikia.com//wiki/Aredhel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Argeleb I",
     "Url": "http://lotr.wikia.com//wiki/Argeleb_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Argeleb II",
     "Url": "http://lotr.wikia.com//wiki/Argeleb_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Argon",
     "Url": "http://lotr.wikia.com//wiki/Argon",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Argonui",
     "Url": "http://lotr.wikia.com//wiki/Argonui",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arminas",
     "Url": "http://lotr.wikia.com//wiki/Arminas",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Arthad",
     "Url": "http://lotr.wikia.com//wiki/Arthad",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arvedui",
     "Url": "http://lotr.wikia.com//wiki/Arvedui",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arvegil",
     "Url": "http://lotr.wikia.com//wiki/Arvegil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arveleg I",
     "Url": "http://lotr.wikia.com//wiki/Arveleg_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arveleg II",
     "Url": "http://lotr.wikia.com//wiki/Arveleg_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Arwen",
     "Url": "http://lotr.wikia.com//wiki/Arwen",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Atanalcar",
     "Url": "http://lotr.wikia.com//wiki/Atanalcar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Atanatar I",
     "Url": "http://lotr.wikia.com//wiki/Atanatar_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Atanatar II",
     "Url": "http://lotr.wikia.com//wiki/Atanatar_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Aulendil (Vardamir's son)",
     "Url": "http://lotr.wikia.com//wiki/Aulendil_(Vardamir%27s_son)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Axantur",
     "Url": "http://lotr.wikia.com//wiki/Axantur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Azaghâl",
     "Url": "http://lotr.wikia.com//wiki/Azagh%C3%A2l",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Angelica Baggins",
     "Url": "http://lotr.wikia.com//wiki/Angelica_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Balbo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Balbo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Belladonna (Took) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Belladonna_(Took)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Berylla (Boffin) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Berylla_(Boffin)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bungo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Bungo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Drogo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Drogo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Dudo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Dudo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Fosco Baggins",
     "Url": "http://lotr.wikia.com//wiki/Fosco_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Frodo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Frodo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Laura (Grubb) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Laura_(Grubb)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Longo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Longo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mungo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Mungo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Peony (Baggins) Burrows",
     "Url": "http://lotr.wikia.com//wiki/Peony_(Baggins)_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ponto Baggins",
     "Url": "http://lotr.wikia.com//wiki/Ponto_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ponto Baggins II",
     "Url": "http://lotr.wikia.com//wiki/Ponto_Baggins_II",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Porto Baggins",
     "Url": "http://lotr.wikia.com//wiki/Porto_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bain",
     "Url": "http://lotr.wikia.com//wiki/Bain",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Balin",
     "Url": "http://lotr.wikia.com//wiki/Balin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Baragund",
     "Url": "http://lotr.wikia.com//wiki/Baragund",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Barahir",
     "Url": "http://lotr.wikia.com//wiki/Barahir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Barahir (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Barahir_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Baran",
     "Url": "http://lotr.wikia.com//wiki/Baran",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Baranor",
     "Url": "http://lotr.wikia.com//wiki/Baranor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Baranor (Gondor)",
     "Url": "http://lotr.wikia.com//wiki/Baranor_(Gondor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bard",
     "Url": "http://lotr.wikia.com//wiki/Bard",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bard II",
     "Url": "http://lotr.wikia.com//wiki/Bard_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beldir",
     "Url": "http://lotr.wikia.com//wiki/Beldir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beldis",
     "Url": "http://lotr.wikia.com//wiki/Beldis",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belecthor I",
     "Url": "http://lotr.wikia.com//wiki/Belecthor_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belecthor II",
     "Url": "http://lotr.wikia.com//wiki/Belecthor_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beleg of Arnor",
     "Url": "http://lotr.wikia.com//wiki/Beleg_of_Arnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belegorn",
     "Url": "http://lotr.wikia.com//wiki/Belegorn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belegund",
     "Url": "http://lotr.wikia.com//wiki/Belegund",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belemir",
     "Url": "http://lotr.wikia.com//wiki/Belemir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Belen",
     "Url": "http://lotr.wikia.com//wiki/Belen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beorn",
     "Url": "http://lotr.wikia.com//wiki/Beorn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bereg",
     "Url": "http://lotr.wikia.com//wiki/Bereg",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beregond",
     "Url": "http://lotr.wikia.com//wiki/Beregond",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beregond (Captain)",
     "Url": "http://lotr.wikia.com//wiki/Beregond_(Captain)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Berelach",
     "Url": "http://lotr.wikia.com//wiki/Berelach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beren",
     "Url": "http://lotr.wikia.com//wiki/Beren",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beren (Belemir's son)",
     "Url": "http://lotr.wikia.com//wiki/Beren_(Belemir%27s_son)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Beren (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Beren_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bergil",
     "Url": "http://lotr.wikia.com//wiki/Bergil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bifur",
     "Url": "http://lotr.wikia.com//wiki/Bifur",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Bilbo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Bilbo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Black Serpent",
     "Url": "http://lotr.wikia.com//wiki/Black_Serpent",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bladorthin",
     "Url": "http://lotr.wikia.com//wiki/Bladorthin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Blanco",
     "Url": "http://lotr.wikia.com//wiki/Blanco",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bob",
     "Url": "http://lotr.wikia.com//wiki/Bob",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Donnamira (Took) Boffin",
     "Url": "http://lotr.wikia.com//wiki/Donnamira_(Took)_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Basso Boffin",
     "Url": "http://lotr.wikia.com//wiki/Basso_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bosco Boffin",
     "Url": "http://lotr.wikia.com//wiki/Bosco_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Buffo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Buffo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Daisy (Baggins) Boffin",
     "Url": "http://lotr.wikia.com//wiki/Daisy_(Baggins)_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Druda Burrows Boffin",
     "Url": "http://lotr.wikia.com//wiki/Druda_Burrows_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Folco Boffin",
     "Url": "http://lotr.wikia.com//wiki/Folco_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gerda (Boffin) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Gerda_(Boffin)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Griffo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Griffo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hugo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Hugo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ivy (Goodenough) Boffin",
     "Url": "http://lotr.wikia.com//wiki/Ivy_(Goodenough)_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Jago Boffin",
     "Url": "http://lotr.wikia.com//wiki/Jago_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Otto Boffin",
     "Url": "http://lotr.wikia.com//wiki/Otto_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rollo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Rollo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tosto Boffin",
     "Url": "http://lotr.wikia.com//wiki/Tosto_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Vigo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Vigo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bofur",
     "Url": "http://lotr.wikia.com//wiki/Bofur",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Filibert Bolger",
     "Url": "http://lotr.wikia.com//wiki/Filibert_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Fredegar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Fredegar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Jessamine (Boffin) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Jessamine_(Boffin)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Odovacar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Odovacar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rosamunda (Took) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Rosamunda_(Took)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Wilibald Bolger",
     "Url": "http://lotr.wikia.com//wiki/Wilibald_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bombur",
     "Url": "http://lotr.wikia.com//wiki/Bombur",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Borin",
     "Url": "http://lotr.wikia.com//wiki/Borin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Borlach",
     "Url": "http://lotr.wikia.com//wiki/Borlach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Borlad",
     "Url": "http://lotr.wikia.com//wiki/Borlad",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Borlas",
     "Url": "http://lotr.wikia.com//wiki/Borlas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Boromir",
     "Url": "http://lotr.wikia.com//wiki/Boromir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Boromir (House of Bëor)",
     "Url": "http://lotr.wikia.com//wiki/Boromir_(House_of_B%C3%ABor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Boromir (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Boromir_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Boron",
     "Url": "http://lotr.wikia.com//wiki/Boron",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Borondir",
     "Url": "http://lotr.wikia.com//wiki/Borondir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Borthand",
     "Url": "http://lotr.wikia.com//wiki/Borthand",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Blanco Bracegirdle",
     "Url": "http://lotr.wikia.com//wiki/Blanco_Bracegirdle",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bruno Bracegirdle",
     "Url": "http://lotr.wikia.com//wiki/Bruno_Bracegirdle",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Primrose Bracegirdle",
     "Url": "http://lotr.wikia.com//wiki/Primrose_Bracegirdle",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Brand",
     "Url": "http://lotr.wikia.com//wiki/Brand",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Brandir",
     "Url": "http://lotr.wikia.com//wiki/Brandir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Adaldrida (Bolger) Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Adaldrida_(Bolger)_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Amaranth Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Amaranth_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Celandine Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Celandine_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Esmeralda Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Esmeralda_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Estella (Bolger) Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Estella_(Bolger)_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hilda Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Hilda_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Madoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Madoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Melilot Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Melilot_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mentha Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Mentha_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Meriadoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Meriadoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mirabella (Took) Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Mirabella_(Took)_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Primula (Brandybuck) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Primula_(Brandybuck)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Seredic Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Seredic_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Brego",
     "Url": "http://lotr.wikia.com//wiki/Brego",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bregolas",
     "Url": "http://lotr.wikia.com//wiki/Bregolas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bregor",
     "Url": "http://lotr.wikia.com//wiki/Bregor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Sapphira (Brockhouse) Boffin",
     "Url": "http://lotr.wikia.com//wiki/Sapphira_(Brockhouse)_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bucca of the Marish",
     "Url": "http://lotr.wikia.com//wiki/Bucca_of_the_Marish",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Asphodel (Brandybuck) Burrows",
     "Url": "http://lotr.wikia.com//wiki/Asphodel_(Brandybuck)_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Milo Burrows",
     "Url": "http://lotr.wikia.com//wiki/Milo_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Minto Burrows",
     "Url": "http://lotr.wikia.com//wiki/Minto_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bëor",
     "Url": "http://lotr.wikia.com//wiki/B%C3%ABor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bór",
     "Url": "http://lotr.wikia.com//wiki/B%C3%B3r",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Calimehtar",
     "Url": "http://lotr.wikia.com//wiki/Calimehtar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Caliondo",
     "Url": "http://lotr.wikia.com//wiki/Caliondo",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Calmacil",
     "Url": "http://lotr.wikia.com//wiki/Calmacil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Caranthir",
     "Url": "http://lotr.wikia.com//wiki/Caranthir",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Castamir the Usurper",
     "Url": "http://lotr.wikia.com//wiki/Castamir_the_Usurper",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Celeborn",
     "Url": "http://lotr.wikia.com//wiki/Celeborn",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Celebrimbor",
     "Url": "http://lotr.wikia.com//wiki/Celebrimbor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Celebrindor",
     "Url": "http://lotr.wikia.com//wiki/Celebrindor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Celebrían",
     "Url": "http://lotr.wikia.com//wiki/Celebr%C3%ADan",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Celegorm",
     "Url": "http://lotr.wikia.com//wiki/Celegorm",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Celepharn",
     "Url": "http://lotr.wikia.com//wiki/Celepharn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Cemendur",
     "Url": "http://lotr.wikia.com//wiki/Cemendur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Cemendur (son of Axantur)",
     "Url": "http://lotr.wikia.com//wiki/Cemendur_(son_of_Axantur)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ceorl",
     "Url": "http://lotr.wikia.com//wiki/Ceorl",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Falco Chubb-Baggins",
     "Url": "http://lotr.wikia.com//wiki/Falco_Chubb-Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Cirion",
     "Url": "http://lotr.wikia.com//wiki/Cirion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ciryandil",
     "Url": "http://lotr.wikia.com//wiki/Ciryandil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ciryatur",
     "Url": "http://lotr.wikia.com//wiki/Ciryatur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ciryon",
     "Url": "http://lotr.wikia.com//wiki/Ciryon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Bowman Cotton",
     "Url": "http://lotr.wikia.com//wiki/Bowman_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Lily Cotton",
     "Url": "http://lotr.wikia.com//wiki/Lily_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Marigold (Gamgee) Cotton",
     "Url": "http://lotr.wikia.com//wiki/Marigold_(Gamgee)_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rosie Cotton",
     "Url": "http://lotr.wikia.com//wiki/Rosie_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tolman Cotton",
     "Url": "http://lotr.wikia.com//wiki/Tolman_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Curufin",
     "Url": "http://lotr.wikia.com//wiki/Curufin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Círdan",
     "Url": "http://lotr.wikia.com//wiki/C%C3%ADrdan",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Dairuin",
     "Url": "http://lotr.wikia.com//wiki/Dairuin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Damrod",
     "Url": "http://lotr.wikia.com//wiki/Damrod",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Denethor (First Age)",
     "Url": "http://lotr.wikia.com//wiki/Denethor_(First_Age)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Denethor I",
     "Url": "http://lotr.wikia.com//wiki/Denethor_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Denethor II",
     "Url": "http://lotr.wikia.com//wiki/Denethor_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Derufin",
     "Url": "http://lotr.wikia.com//wiki/Derufin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Dervorin",
     "Url": "http://lotr.wikia.com//wiki/Dervorin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Diamond Took",
     "Url": "http://lotr.wikia.com//wiki/Diamond_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Dinodas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Dinodas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Dior (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Dior_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Dodinas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Dodinas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Dori",
     "Url": "http://lotr.wikia.com//wiki/Dori",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Dorlas",
     "Url": "http://lotr.wikia.com//wiki/Dorlas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Duilin",
     "Url": "http://lotr.wikia.com//wiki/Duilin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Duinhir",
     "Url": "http://lotr.wikia.com//wiki/Duinhir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Durin VII",
     "Url": "http://lotr.wikia.com//wiki/Durin_VII",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Dwalin",
     "Url": "http://lotr.wikia.com//wiki/Dwalin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Dáin I",
     "Url": "http://lotr.wikia.com//wiki/D%C3%A1in_I",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Dáin II Ironfoot",
     "Url": "http://lotr.wikia.com//wiki/D%C3%A1in_II_Ironfoot",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Déagol",
     "Url": "http://lotr.wikia.com//wiki/D%C3%A9agol",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Déor",
     "Url": "http://lotr.wikia.com//wiki/D%C3%A9or",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Déorwine",
     "Url": "http://lotr.wikia.com//wiki/D%C3%A9orwine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Dírhael",
     "Url": "http://lotr.wikia.com//wiki/D%C3%ADrhael",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Dírhavel",
     "Url": "http://lotr.wikia.com//wiki/D%C3%ADrhavel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Dís",
     "Url": "http://lotr.wikia.com//wiki/D%C3%ADs",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Dúnhere",
     "Url": "http://lotr.wikia.com//wiki/D%C3%BAnhere",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ecthelion I",
     "Url": "http://lotr.wikia.com//wiki/Ecthelion_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ecthelion II",
     "Url": "http://lotr.wikia.com//wiki/Ecthelion_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Edrahil",
     "Url": "http://lotr.wikia.com//wiki/Edrahil",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Egalmoth",
     "Url": "http://lotr.wikia.com//wiki/Egalmoth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eglantine (Banks) Took",
     "Url": "http://lotr.wikia.com//wiki/Eglantine_(Banks)_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Eilinel",
     "Url": "http://lotr.wikia.com//wiki/Eilinel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elatan",
     "Url": "http://lotr.wikia.com//wiki/Elatan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elboron",
     "Url": "http://lotr.wikia.com//wiki/Elboron",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eldacar (King of Arnor)",
     "Url": "http://lotr.wikia.com//wiki/Eldacar_(King_of_Arnor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eldacar (King of Gondor)",
     "Url": "http://lotr.wikia.com//wiki/Eldacar_(King_of_Gondor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eldalótë",
     "Url": "http://lotr.wikia.com//wiki/Eldal%C3%B3t%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Eldarion",
     "Url": "http://lotr.wikia.com//wiki/Eldarion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elemmírë (elf)",
     "Url": "http://lotr.wikia.com//wiki/Elemm%C3%ADr%C3%AB_(elf)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Elendil",
     "Url": "http://lotr.wikia.com//wiki/Elendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elendur",
     "Url": "http://lotr.wikia.com//wiki/Elendur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elendur of Arnor",
     "Url": "http://lotr.wikia.com//wiki/Elendur_of_Arnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elenwë",
     "Url": "http://lotr.wikia.com//wiki/Elenw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Elfhelm",
     "Url": "http://lotr.wikia.com//wiki/Elfhelm",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elfhild",
     "Url": "http://lotr.wikia.com//wiki/Elfhild",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elfwine",
     "Url": "http://lotr.wikia.com//wiki/Elfwine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elladan and Elrohir",
     "Url": "http://lotr.wikia.com//wiki/Elladan_and_Elrohir",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Elphir",
     "Url": "http://lotr.wikia.com//wiki/Elphir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elrond",
     "Url": "http://lotr.wikia.com//wiki/Elrond",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Emeldir",
     "Url": "http://lotr.wikia.com//wiki/Emeldir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Enel",
     "Url": "http://lotr.wikia.com//wiki/Enel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Enelyë",
     "Url": "http://lotr.wikia.com//wiki/Enely%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Enerdhil",
     "Url": "http://lotr.wikia.com//wiki/Enerdhil",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Éomer",
     "Url": "http://lotr.wikia.com//wiki/%C3%89omer",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eorl the Young",
     "Url": "http://lotr.wikia.com//wiki/Eorl_the_Young",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Éowyn",
     "Url": "http://lotr.wikia.com//wiki/%C3%89owyn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eradan",
     "Url": "http://lotr.wikia.com//wiki/Eradan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Erchirion",
     "Url": "http://lotr.wikia.com//wiki/Erchirion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Erellont",
     "Url": "http://lotr.wikia.com//wiki/Erellont",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Erendis",
     "Url": "http://lotr.wikia.com//wiki/Erendis",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Erestor",
     "Url": "http://lotr.wikia.com//wiki/Erestor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Erkenbrand",
     "Url": "http://lotr.wikia.com//wiki/Erkenbrand",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Estelmo",
     "Url": "http://lotr.wikia.com//wiki/Estelmo",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärendil of Gondor",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rendil_of_Gondor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärendur (Lord of Andúnië)",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rendur_(Lord_of_And%C3%BAni%C3%AB)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärendur of Arnor",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rendur_of_Arnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärendur of Númenor",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rendur_of_N%C3%BAmenor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärnil I",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rnil_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärnil II",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rnil_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärnur",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rnur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärwen",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rwen",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Eöl",
     "Url": "http://lotr.wikia.com//wiki/E%C3%B6l",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Faramir",
     "Url": "http://lotr.wikia.com//wiki/Faramir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Faramir (son of Ondoher)",
     "Url": "http://lotr.wikia.com//wiki/Faramir_(son_of_Ondoher)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Farin",
     "Url": "http://lotr.wikia.com//wiki/Farin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Fastolph Bolger",
     "Url": "http://lotr.wikia.com//wiki/Fastolph_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Fastred",
     "Url": "http://lotr.wikia.com//wiki/Fastred",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fastred (Pelennor Fields)",
     "Url": "http://lotr.wikia.com//wiki/Fastred_(Pelennor_Fields)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fengel",
     "Url": "http://lotr.wikia.com//wiki/Fengel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ferumbras Took II",
     "Url": "http://lotr.wikia.com//wiki/Ferumbras_Took_II",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Finarfin",
     "Url": "http://lotr.wikia.com//wiki/Finarfin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Findegil",
     "Url": "http://lotr.wikia.com//wiki/Findegil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Findis",
     "Url": "http://lotr.wikia.com//wiki/Findis",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Finduilas",
     "Url": "http://lotr.wikia.com//wiki/Finduilas",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Finduilas of Dol Amroth",
     "Url": "http://lotr.wikia.com//wiki/Finduilas_of_Dol_Amroth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fingolfin",
     "Url": "http://lotr.wikia.com//wiki/Fingolfin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Fingon",
     "Url": "http://lotr.wikia.com//wiki/Fingon",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Finrod",
     "Url": "http://lotr.wikia.com//wiki/Finrod",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Finwë",
     "Url": "http://lotr.wikia.com//wiki/Finw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Flói",
     "Url": "http://lotr.wikia.com//wiki/Fl%C3%B3i",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Folca",
     "Url": "http://lotr.wikia.com//wiki/Folca",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Folcred",
     "Url": "http://lotr.wikia.com//wiki/Folcred",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Folcwine",
     "Url": "http://lotr.wikia.com//wiki/Folcwine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Forlong",
     "Url": "http://lotr.wikia.com//wiki/Forlong",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Forthwini",
     "Url": "http://lotr.wikia.com//wiki/Forthwini",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fortinbras Took I",
     "Url": "http://lotr.wikia.com//wiki/Fortinbras_Took_I",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Forweg",
     "Url": "http://lotr.wikia.com//wiki/Forweg",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fram",
     "Url": "http://lotr.wikia.com//wiki/Fram",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Freca",
     "Url": "http://lotr.wikia.com//wiki/Freca",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Frerin",
     "Url": "http://lotr.wikia.com//wiki/Frerin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Frumgar",
     "Url": "http://lotr.wikia.com//wiki/Frumgar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Frár",
     "Url": "http://lotr.wikia.com//wiki/Fr%C3%A1r",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Fréa",
     "Url": "http://lotr.wikia.com//wiki/Fr%C3%A9a",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fréaláf Hildeson",
     "Url": "http://lotr.wikia.com//wiki/Fr%C3%A9al%C3%A1f_Hildeson",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Fréawine",
     "Url": "http://lotr.wikia.com//wiki/Fr%C3%A9awine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Frór",
     "Url": "http://lotr.wikia.com//wiki/Fr%C3%B3r",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Fundin",
     "Url": "http://lotr.wikia.com//wiki/Fundin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Fëanor",
     "Url": "http://lotr.wikia.com//wiki/F%C3%ABanor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Fíli and Kíli",
     "Url": "http://lotr.wikia.com//wiki/F%C3%ADli_and_K%C3%ADli",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Fíriel",
     "Url": "http://lotr.wikia.com//wiki/F%C3%ADriel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Galadriel",
     "Url": "http://lotr.wikia.com//wiki/Galadriel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Galar",
     "Url": "http://lotr.wikia.com//wiki/Galar",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Galdor",
     "Url": "http://lotr.wikia.com//wiki/Galdor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Galdor of the Havens",
     "Url": "http://lotr.wikia.com//wiki/Galdor_of_the_Havens",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Galion",
     "Url": "http://lotr.wikia.com//wiki/Galion",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Daisy Gamgee I",
     "Url": "http://lotr.wikia.com//wiki/Daisy_Gamgee_I",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Frodo Gardner",
     "Url": "http://lotr.wikia.com//wiki/Frodo_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Halfred Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Halfred_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hamfast Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Hamfast_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hamson Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Hamson_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "May Gamgee",
     "Url": "http://lotr.wikia.com//wiki/May_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Samwise Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Samwise_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gamling",
     "Url": "http://lotr.wikia.com//wiki/Gamling",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Elanor Gardner",
     "Url": "http://lotr.wikia.com//wiki/Elanor_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gelmir",
     "Url": "http://lotr.wikia.com//wiki/Gelmir",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gelmir (of Angrod's kin)",
     "Url": "http://lotr.wikia.com//wiki/Gelmir_(of_Angrod%27s_kin)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gethron",
     "Url": "http://lotr.wikia.com//wiki/Gethron",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ghân-buri-Ghân",
     "Url": "http://lotr.wikia.com//wiki/Gh%C3%A2n-buri-Gh%C3%A2n",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gil-galad",
     "Url": "http://lotr.wikia.com//wiki/Gil-galad",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gildis",
     "Url": "http://lotr.wikia.com//wiki/Gildis",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gildor (Edain)",
     "Url": "http://lotr.wikia.com//wiki/Gildor_(Edain)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gildor Inglorion",
     "Url": "http://lotr.wikia.com//wiki/Gildor_Inglorion",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gilfanon",
     "Url": "http://lotr.wikia.com//wiki/Gilfanon",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gilraen",
     "Url": "http://lotr.wikia.com//wiki/Gilraen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gimilkhâd",
     "Url": "http://lotr.wikia.com//wiki/Gimilkh%C3%A2d",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gimilzagar",
     "Url": "http://lotr.wikia.com//wiki/Gimilzagar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gimli",
     "Url": "http://lotr.wikia.com//wiki/Gimli",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Girion",
     "Url": "http://lotr.wikia.com//wiki/Girion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Glirhuin",
     "Url": "http://lotr.wikia.com//wiki/Glirhuin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Glorfindel",
     "Url": "http://lotr.wikia.com//wiki/Glorfindel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gléowine",
     "Url": "http://lotr.wikia.com//wiki/Gl%C3%A9owine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Glóin",
     "Url": "http://lotr.wikia.com//wiki/Gl%C3%B3in",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Glóin (King of Durin's Folk)",
     "Url": "http://lotr.wikia.com//wiki/Gl%C3%B3in_(King_of_Durin%27s_Folk)",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Glóredhel",
     "Url": "http://lotr.wikia.com//wiki/Gl%C3%B3redhel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Golasgil",
     "Url": "http://lotr.wikia.com//wiki/Golasgil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Goldwine",
     "Url": "http://lotr.wikia.com//wiki/Goldwine",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hanna (Goldworthy) Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Hanna_(Goldworthy)_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gorbulas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Gorbulas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gorhendad (Oldbuck) Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Gorhendad_(Oldbuck)_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gorlim",
     "Url": "http://lotr.wikia.com//wiki/Gorlim",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gormadoc Deepdelver Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Gormadoc_%22Deepdelver%22_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gram",
     "Url": "http://lotr.wikia.com//wiki/Gram",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Erling Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Erling_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Halfred Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Halfred_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hending Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Hending_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Holman Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Holman_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rose Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Rose_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Grimbeorn",
     "Url": "http://lotr.wikia.com//wiki/Grimbeorn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Grimbold",
     "Url": "http://lotr.wikia.com//wiki/Grimbold",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Grithnir",
     "Url": "http://lotr.wikia.com//wiki/Grithnir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gróin",
     "Url": "http://lotr.wikia.com//wiki/Gr%C3%B3in",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Grór",
     "Url": "http://lotr.wikia.com//wiki/Gr%C3%B3r",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Guilin",
     "Url": "http://lotr.wikia.com//wiki/Guilin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gundor",
     "Url": "http://lotr.wikia.com//wiki/Gundor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Guthláf",
     "Url": "http://lotr.wikia.com//wiki/Guthl%C3%A1f",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gwindor",
     "Url": "http://lotr.wikia.com//wiki/Gwindor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Gálmód",
     "Url": "http://lotr.wikia.com//wiki/G%C3%A1lm%C3%B3d",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gárulf",
     "Url": "http://lotr.wikia.com//wiki/G%C3%A1rulf",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hador",
     "Url": "http://lotr.wikia.com//wiki/Hador",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hador (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Hador_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Halbarad",
     "Url": "http://lotr.wikia.com//wiki/Halbarad",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Haldir (Haladin)",
     "Url": "http://lotr.wikia.com//wiki/Haldir_(Haladin)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Haldir (Lorien)",
     "Url": "http://lotr.wikia.com//wiki/Haldir_(Lorien)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Haleth",
     "Url": "http://lotr.wikia.com//wiki/Haleth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Haleth (Helm's son)",
     "Url": "http://lotr.wikia.com//wiki/Haleth_(Helm%27s_son)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hallacar",
     "Url": "http://lotr.wikia.com//wiki/Hallacar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hallas (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Hallas_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hallatan",
     "Url": "http://lotr.wikia.com//wiki/Hallatan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Halmir",
     "Url": "http://lotr.wikia.com//wiki/Halmir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hamfast of Gamwich",
     "Url": "http://lotr.wikia.com//wiki/Hamfast_of_Gamwich",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Handir",
     "Url": "http://lotr.wikia.com//wiki/Handir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hardang",
     "Url": "http://lotr.wikia.com//wiki/Hardang",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Harding",
     "Url": "http://lotr.wikia.com//wiki/Harding",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hareth",
     "Url": "http://lotr.wikia.com//wiki/Hareth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hathaldir",
     "Url": "http://lotr.wikia.com//wiki/Hathaldir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hathol",
     "Url": "http://lotr.wikia.com//wiki/Hathol",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hatholdir",
     "Url": "http://lotr.wikia.com//wiki/Hatholdir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Helm Hammerhand",
     "Url": "http://lotr.wikia.com//wiki/Helm_Hammerhand",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Henderch",
     "Url": "http://lotr.wikia.com//wiki/Henderch",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hendor",
     "Url": "http://lotr.wikia.com//wiki/Hendor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Herefara",
     "Url": "http://lotr.wikia.com//wiki/Herefara",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Herion",
     "Url": "http://lotr.wikia.com//wiki/Herion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Herubrand",
     "Url": "http://lotr.wikia.com//wiki/Herubrand",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Herucalmo",
     "Url": "http://lotr.wikia.com//wiki/Herucalmo",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hirgon",
     "Url": "http://lotr.wikia.com//wiki/Hirgon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hirluin",
     "Url": "http://lotr.wikia.com//wiki/Hirluin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hob Gammidge",
     "Url": "http://lotr.wikia.com//wiki/Hob_Gammidge",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hob Hayward",
     "Url": "http://lotr.wikia.com//wiki/Hob_Hayward",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Holfast Gardner",
     "Url": "http://lotr.wikia.com//wiki/Holfast_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Horn",
     "Url": "http://lotr.wikia.com//wiki/Horn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tobias Hornblower",
     "Url": "http://lotr.wikia.com//wiki/Tobias_Hornblower",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hundad",
     "Url": "http://lotr.wikia.com//wiki/Hundad",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hundar",
     "Url": "http://lotr.wikia.com//wiki/Hundar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hunthor",
     "Url": "http://lotr.wikia.com//wiki/Hunthor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Huor",
     "Url": "http://lotr.wikia.com//wiki/Huor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hyarmendacil I",
     "Url": "http://lotr.wikia.com//wiki/Hyarmendacil_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Hyarmendacil II",
     "Url": "http://lotr.wikia.com//wiki/Hyarmendacil_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Háma",
     "Url": "http://lotr.wikia.com//wiki/H%C3%A1ma",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Háma (Helm's son)",
     "Url": "http://lotr.wikia.com//wiki/H%C3%A1ma_(Helm%27s_son)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Húrin",
     "Url": "http://lotr.wikia.com//wiki/H%C3%BArin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Húrin I",
     "Url": "http://lotr.wikia.com//wiki/H%C3%BArin_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Húrin II",
     "Url": "http://lotr.wikia.com//wiki/H%C3%BArin_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Húrin of Emyn Arnen",
     "Url": "http://lotr.wikia.com//wiki/H%C3%BArin_of_Emyn_Arnen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ibûn",
     "Url": "http://lotr.wikia.com//wiki/Ib%C3%BBn",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Idril",
     "Url": "http://lotr.wikia.com//wiki/Idril",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Imin",
     "Url": "http://lotr.wikia.com//wiki/Imin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Iminyë",
     "Url": "http://lotr.wikia.com//wiki/Iminy%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Imlach",
     "Url": "http://lotr.wikia.com//wiki/Imlach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Imrahil",
     "Url": "http://lotr.wikia.com//wiki/Imrahil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Imrazôr",
     "Url": "http://lotr.wikia.com//wiki/Imraz%C3%B4r",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Indis",
     "Url": "http://lotr.wikia.com//wiki/Indis",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Indor",
     "Url": "http://lotr.wikia.com//wiki/Indor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ingold",
     "Url": "http://lotr.wikia.com//wiki/Ingold",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ingwion",
     "Url": "http://lotr.wikia.com//wiki/Ingwion",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Ingwë",
     "Url": "http://lotr.wikia.com//wiki/Ingw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Inzilbêth",
     "Url": "http://lotr.wikia.com//wiki/Inzilb%C3%AAth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ioreth",
     "Url": "http://lotr.wikia.com//wiki/Ioreth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Iorlas",
     "Url": "http://lotr.wikia.com//wiki/Iorlas",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Isembold Took",
     "Url": "http://lotr.wikia.com//wiki/Isembold_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isengrim Took III",
     "Url": "http://lotr.wikia.com//wiki/Isengrim_Took_III",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isildur",
     "Url": "http://lotr.wikia.com//wiki/Isildur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Isilmo",
     "Url": "http://lotr.wikia.com//wiki/Isilmo",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Isilmë",
     "Url": "http://lotr.wikia.com//wiki/Isilm%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ivorwen",
     "Url": "http://lotr.wikia.com//wiki/Ivorwen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ivriniel",
     "Url": "http://lotr.wikia.com//wiki/Ivriniel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Lalaith",
     "Url": "http://lotr.wikia.com//wiki/Lalaith",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Larnach",
     "Url": "http://lotr.wikia.com//wiki/Larnach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Legolas",
     "Url": "http://lotr.wikia.com//wiki/Legolas",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Lenwë",
     "Url": "http://lotr.wikia.com//wiki/Lenw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Lindir",
     "Url": "http://lotr.wikia.com//wiki/Lindir",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Lindissë",
     "Url": "http://lotr.wikia.com//wiki/Lindiss%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Lindo",
     "Url": "http://lotr.wikia.com//wiki/Lindo",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Lindórië",
     "Url": "http://lotr.wikia.com//wiki/Lind%C3%B3ri%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Lorgan",
     "Url": "http://lotr.wikia.com//wiki/Lorgan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Lothíriel",
     "Url": "http://lotr.wikia.com//wiki/Loth%C3%ADriel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Léod",
     "Url": "http://lotr.wikia.com//wiki/L%C3%A9od",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Brytta Léofa",
     "Url": "http://lotr.wikia.com//wiki/Brytta_L%C3%A9ofa",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Lóni",
     "Url": "http://lotr.wikia.com//wiki/L%C3%B3ni",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Lúthien",
     "Url": "http://lotr.wikia.com//wiki/L%C3%BAthien",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Mablung the Ranger",
     "Url": "http://lotr.wikia.com//wiki/Mablung_the_Ranger",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Maedhros",
     "Url": "http://lotr.wikia.com//wiki/Maedhros",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Maeglin",
     "Url": "http://lotr.wikia.com//wiki/Maeglin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Farmer Maggot",
     "Url": "http://lotr.wikia.com//wiki/Farmer_Maggot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Maglor",
     "Url": "http://lotr.wikia.com//wiki/Maglor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Magor",
     "Url": "http://lotr.wikia.com//wiki/Magor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Mahtan",
     "Url": "http://lotr.wikia.com//wiki/Mahtan",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Mairen",
     "Url": "http://lotr.wikia.com//wiki/Mairen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Malach",
     "Url": "http://lotr.wikia.com//wiki/Malach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Malbeth the Seer",
     "Url": "http://lotr.wikia.com//wiki/Malbeth_the_Seer",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Mallor",
     "Url": "http://lotr.wikia.com//wiki/Mallor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Malva Headstrong Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Malva_%22Headstrong%22_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Malvegil",
     "Url": "http://lotr.wikia.com//wiki/Malvegil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Manthor",
     "Url": "http://lotr.wikia.com//wiki/Manthor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Manwendil",
     "Url": "http://lotr.wikia.com//wiki/Manwendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Marach",
     "Url": "http://lotr.wikia.com//wiki/Marach",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Marcho",
     "Url": "http://lotr.wikia.com//wiki/Marcho",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mardil Voronwë",
     "Url": "http://lotr.wikia.com//wiki/Mardil_Voronw%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Marhari",
     "Url": "http://lotr.wikia.com//wiki/Marhari",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Marhwini",
     "Url": "http://lotr.wikia.com//wiki/Marhwini",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Marmadas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Marmadas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Marroc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Marroc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Master of Laketown",
     "Url": "http://lotr.wikia.com//wiki/Master_of_Laketown",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Meleth",
     "Url": "http://lotr.wikia.com//wiki/Meleth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Meneldil",
     "Url": "http://lotr.wikia.com//wiki/Meneldil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Meril-i-Turinqi",
     "Url": "http://lotr.wikia.com//wiki/Meril-i-Turinqi",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Merimas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Merimas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Minardil",
     "Url": "http://lotr.wikia.com//wiki/Minardil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Minohtar",
     "Url": "http://lotr.wikia.com//wiki/Minohtar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Mithrellas",
     "Url": "http://lotr.wikia.com//wiki/Mithrellas",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Morwen",
     "Url": "http://lotr.wikia.com//wiki/Morwen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Morwen (Gondor)",
     "Url": "http://lotr.wikia.com//wiki/Morwen_(Gondor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Morwë",
     "Url": "http://lotr.wikia.com//wiki/Morw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Míriel",
     "Url": "http://lotr.wikia.com//wiki/M%C3%ADriel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Mîm",
     "Url": "http://lotr.wikia.com//wiki/M%C3%AEm",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Narmacil I",
     "Url": "http://lotr.wikia.com//wiki/Narmacil_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Narmacil II",
     "Url": "http://lotr.wikia.com//wiki/Narmacil_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Naugladur",
     "Url": "http://lotr.wikia.com//wiki/Naugladur",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Nerdanel",
     "Url": "http://lotr.wikia.com//wiki/Nerdanel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Nessanië",
     "Url": "http://lotr.wikia.com//wiki/Nessani%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Nimrodel",
     "Url": "http://lotr.wikia.com//wiki/Nimrodel",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Nina Lightfoot",
     "Url": "http://lotr.wikia.com//wiki/Nina_Lightfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Niënor",
     "Url": "http://lotr.wikia.com//wiki/Ni%C3%ABnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Nob",
     "Url": "http://lotr.wikia.com//wiki/Nob",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Nolondil",
     "Url": "http://lotr.wikia.com//wiki/Nolondil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Nori",
     "Url": "http://lotr.wikia.com//wiki/Nori",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Nurwë",
     "Url": "http://lotr.wikia.com//wiki/Nurw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Náin (father of Dáin II Ironfoot)",
     "Url": "http://lotr.wikia.com//wiki/N%C3%A1in_(father_of_D%C3%A1in_II_Ironfoot)",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Náin I",
     "Url": "http://lotr.wikia.com//wiki/N%C3%A1in_I",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Náin II",
     "Url": "http://lotr.wikia.com//wiki/N%C3%A1in_II",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Náli",
     "Url": "http://lotr.wikia.com//wiki/N%C3%A1li",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Nár",
     "Url": "http://lotr.wikia.com//wiki/N%C3%A1r",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Númendil",
     "Url": "http://lotr.wikia.com//wiki/N%C3%BAmendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Núneth",
     "Url": "http://lotr.wikia.com//wiki/N%C3%BAneth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ohtar",
     "Url": "http://lotr.wikia.com//wiki/Ohtar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Old Noakes",
     "Url": "http://lotr.wikia.com//wiki/Old_Noakes",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Olwë",
     "Url": "http://lotr.wikia.com//wiki/Olw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Ondoher",
     "Url": "http://lotr.wikia.com//wiki/Ondoher",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Orchaldor",
     "Url": "http://lotr.wikia.com//wiki/Orchaldor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ori",
     "Url": "http://lotr.wikia.com//wiki/Ori",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Orodreth",
     "Url": "http://lotr.wikia.com//wiki/Orodreth",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Orodreth (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Orodreth_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Oromendil",
     "Url": "http://lotr.wikia.com//wiki/Oromendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Oropher",
     "Url": "http://lotr.wikia.com//wiki/Oropher",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Orophin",
     "Url": "http://lotr.wikia.com//wiki/Orophin",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Ostoher",
     "Url": "http://lotr.wikia.com//wiki/Ostoher",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Otho Sackville-Baggins",
     "Url": "http://lotr.wikia.com//wiki/Otho_Sackville-Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pelendur",
     "Url": "http://lotr.wikia.com//wiki/Pelendur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Pengolodh",
     "Url": "http://lotr.wikia.com//wiki/Pengolodh",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Mrs. Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Mrs._Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Odo Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Odo_Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Radhruin",
     "Url": "http://lotr.wikia.com//wiki/Radhruin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ragnir",
     "Url": "http://lotr.wikia.com//wiki/Ragnir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ragnor",
     "Url": "http://lotr.wikia.com//wiki/Ragnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Rowan Greenhand",
     "Url": "http://lotr.wikia.com//wiki/Rowan_Greenhand",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rudigar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Rudigar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rufus Burrows",
     "Url": "http://lotr.wikia.com//wiki/Rufus_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rían",
     "Url": "http://lotr.wikia.com//wiki/R%C3%ADan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Rían (Gondor)",
     "Url": "http://lotr.wikia.com//wiki/R%C3%ADan_(Gondor)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Rómendacil I",
     "Url": "http://lotr.wikia.com//wiki/R%C3%B3mendacil_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Rómendacil II",
     "Url": "http://lotr.wikia.com//wiki/R%C3%B3mendacil_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Rúmil (Noldo)",
     "Url": "http://lotr.wikia.com//wiki/R%C3%BAmil_(Noldo)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Rúmil of Lórien",
     "Url": "http://lotr.wikia.com//wiki/R%C3%BAmil_of_L%C3%B3rien",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Lobelia Sackville-Baggins",
     "Url": "http://lotr.wikia.com//wiki/Lobelia_Sackville-Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Lotho Sackville-Baggins",
     "Url": "http://lotr.wikia.com//wiki/Lotho_Sackville-Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Sadoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Sadoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Sador",
     "Url": "http://lotr.wikia.com//wiki/Sador",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Saelon",
     "Url": "http://lotr.wikia.com//wiki/Saelon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Sagroth",
     "Url": "http://lotr.wikia.com//wiki/Sagroth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ted Sandyman",
     "Url": "http://lotr.wikia.com//wiki/Ted_Sandyman",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Sangahyando",
     "Url": "http://lotr.wikia.com//wiki/Sangahyando",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Saradas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Saradas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Silmariën",
     "Url": "http://lotr.wikia.com//wiki/Silmari%C3%ABn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Siriondil",
     "Url": "http://lotr.wikia.com//wiki/Siriondil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Robin Smallburrow",
     "Url": "http://lotr.wikia.com//wiki/Robin_Smallburrow",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Soronto",
     "Url": "http://lotr.wikia.com//wiki/Soronto",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Morwen Steelsheen",
     "Url": "http://lotr.wikia.com//wiki/Morwen_Steelsheen",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Alcarin",
     "Url": "http://lotr.wikia.com//wiki/Tar-Alcarin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Aldarion",
     "Url": "http://lotr.wikia.com//wiki/Tar-Aldarion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Amandil",
     "Url": "http://lotr.wikia.com//wiki/Tar-Amandil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Ancalimon",
     "Url": "http://lotr.wikia.com//wiki/Tar-Ancalimon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Ancalimë",
     "Url": "http://lotr.wikia.com//wiki/Tar-Ancalim%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Anárion",
     "Url": "http://lotr.wikia.com//wiki/Tar-An%C3%A1rion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Ardamin",
     "Url": "http://lotr.wikia.com//wiki/Tar-Ardamin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Atanamir",
     "Url": "http://lotr.wikia.com//wiki/Tar-Atanamir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Calmacil",
     "Url": "http://lotr.wikia.com//wiki/Tar-Calmacil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Ciryatan",
     "Url": "http://lotr.wikia.com//wiki/Tar-Ciryatan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Elendil",
     "Url": "http://lotr.wikia.com//wiki/Tar-Elendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Meneldur",
     "Url": "http://lotr.wikia.com//wiki/Tar-Meneldur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Minastir",
     "Url": "http://lotr.wikia.com//wiki/Tar-Minastir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Míriel",
     "Url": "http://lotr.wikia.com//wiki/Tar-M%C3%ADriel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Palantir",
     "Url": "http://lotr.wikia.com//wiki/Tar-Palantir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Súrion",
     "Url": "http://lotr.wikia.com//wiki/Tar-S%C3%BArion",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Telemmaitë",
     "Url": "http://lotr.wikia.com//wiki/Tar-Telemmait%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Telperiën",
     "Url": "http://lotr.wikia.com//wiki/Tar-Telperi%C3%ABn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tar-Vanimeldë",
     "Url": "http://lotr.wikia.com//wiki/Tar-Vanimeld%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tarannon Falastur",
     "Url": "http://lotr.wikia.com//wiki/Tarannon_Falastur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tarcil",
     "Url": "http://lotr.wikia.com//wiki/Tarcil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tarciryan",
     "Url": "http://lotr.wikia.com//wiki/Tarciryan",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Targon",
     "Url": "http://lotr.wikia.com//wiki/Targon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tarondor",
     "Url": "http://lotr.wikia.com//wiki/Tarondor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tarondor of Arnor",
     "Url": "http://lotr.wikia.com//wiki/Tarondor_of_Arnor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tata",
     "Url": "http://lotr.wikia.com//wiki/Tata",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Tatië",
     "Url": "http://lotr.wikia.com//wiki/Tati%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Telchar",
     "Url": "http://lotr.wikia.com//wiki/Telchar",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Telemnar",
     "Url": "http://lotr.wikia.com//wiki/Telemnar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Telumehtar",
     "Url": "http://lotr.wikia.com//wiki/Telumehtar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "The King of the Dead",
     "Url": "http://lotr.wikia.com//wiki/The_King_of_the_Dead",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Thengel",
     "Url": "http://lotr.wikia.com//wiki/Thengel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Thorin I",
     "Url": "http://lotr.wikia.com//wiki/Thorin_I",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Thorin II Oakenshield",
     "Url": "http://lotr.wikia.com//wiki/Thorin_II_Oakenshield",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Thorin III Stonehelm",
     "Url": "http://lotr.wikia.com//wiki/Thorin_III_Stonehelm",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Thorondir",
     "Url": "http://lotr.wikia.com//wiki/Thorondir",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Thranduil",
     "Url": "http://lotr.wikia.com//wiki/Thranduil",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Thráin I",
     "Url": "http://lotr.wikia.com//wiki/Thr%C3%A1in_I",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Thráin II",
     "Url": "http://lotr.wikia.com//wiki/Thr%C3%A1in_II",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Thrór",
     "Url": "http://lotr.wikia.com//wiki/Thr%C3%B3r",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Théoden",
     "Url": "http://lotr.wikia.com//wiki/Th%C3%A9oden",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Théodred",
     "Url": "http://lotr.wikia.com//wiki/Th%C3%A9odred",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Tindómiel",
     "Url": "http://lotr.wikia.com//wiki/Tind%C3%B3miel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Faramir Took I",
     "Url": "http://lotr.wikia.com//wiki/Faramir_Took_I",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isumbras Took I",
     "Url": "http://lotr.wikia.com//wiki/Isumbras_Took_I",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Fortinbras Took II",
     "Url": "http://lotr.wikia.com//wiki/Fortinbras_Took_II",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isengrim Took II",
     "Url": "http://lotr.wikia.com//wiki/Isengrim_Took_II",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isumbras Took III",
     "Url": "http://lotr.wikia.com//wiki/Isumbras_Took_III",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Adalgrim Took",
     "Url": "http://lotr.wikia.com//wiki/Adalgrim_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Adamanta (Chubb) Took",
     "Url": "http://lotr.wikia.com//wiki/Adamanta_(Chubb)_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Adelard Took",
     "Url": "http://lotr.wikia.com//wiki/Adelard_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bandobras Took",
     "Url": "http://lotr.wikia.com//wiki/Bandobras_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ferumbras III Took",
     "Url": "http://lotr.wikia.com//wiki/Ferumbras_III_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gerontius Took",
     "Url": "http://lotr.wikia.com//wiki/Gerontius_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hildibrand Took",
     "Url": "http://lotr.wikia.com//wiki/Hildibrand_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hildifons Took",
     "Url": "http://lotr.wikia.com//wiki/Hildifons_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hildigrim Took",
     "Url": "http://lotr.wikia.com//wiki/Hildigrim_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Isembard Took",
     "Url": "http://lotr.wikia.com//wiki/Isembard_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Paladin Took II",
     "Url": "http://lotr.wikia.com//wiki/Paladin_Took_II",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pearl Took",
     "Url": "http://lotr.wikia.com//wiki/Pearl_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Peregrin Took",
     "Url": "http://lotr.wikia.com//wiki/Peregrin_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rosa (Baggins) Took",
     "Url": "http://lotr.wikia.com//wiki/Rosa_(Baggins)_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Sigismond Took",
     "Url": "http://lotr.wikia.com//wiki/Sigismond_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tulkastor",
     "Url": "http://lotr.wikia.com//wiki/Tulkastor",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Tuor",
     "Url": "http://lotr.wikia.com//wiki/Tuor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Turambar",
     "Url": "http://lotr.wikia.com//wiki/Turambar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Turgon",
     "Url": "http://lotr.wikia.com//wiki/Turgon",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Turgon (Steward)",
     "Url": "http://lotr.wikia.com//wiki/Turgon_(Steward)",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Túrin",
     "Url": "http://lotr.wikia.com//wiki/T%C3%BArin",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Túrin I",
     "Url": "http://lotr.wikia.com//wiki/T%C3%BArin_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Túrin II",
     "Url": "http://lotr.wikia.com//wiki/T%C3%BArin_II",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ulbar",
     "Url": "http://lotr.wikia.com//wiki/Ulbar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Uldor",
     "Url": "http://lotr.wikia.com//wiki/Uldor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ulfang",
     "Url": "http://lotr.wikia.com//wiki/Ulfang",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ulfast",
     "Url": "http://lotr.wikia.com//wiki/Ulfast",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Ulwarth",
     "Url": "http://lotr.wikia.com//wiki/Ulwarth",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Urthel",
     "Url": "http://lotr.wikia.com//wiki/Urthel",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vairë (Elf)",
     "Url": "http://lotr.wikia.com//wiki/Vair%C3%AB_(Elf)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Valacar",
     "Url": "http://lotr.wikia.com//wiki/Valacar",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Valandil",
     "Url": "http://lotr.wikia.com//wiki/Valandil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Valandil of Andúnië",
     "Url": "http://lotr.wikia.com//wiki/Valandil_of_And%C3%BAni%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Valandur",
     "Url": "http://lotr.wikia.com//wiki/Valandur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vardamir Nólimon",
     "Url": "http://lotr.wikia.com//wiki/Vardamir_N%C3%B3limon",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vardilmë",
     "Url": "http://lotr.wikia.com//wiki/Vardilm%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vidugavia",
     "Url": "http://lotr.wikia.com//wiki/Vidugavia",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vidumavi",
     "Url": "http://lotr.wikia.com//wiki/Vidumavi",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Vorondil",
     "Url": "http://lotr.wikia.com//wiki/Vorondil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Voronwë",
     "Url": "http://lotr.wikia.com//wiki/Voronw%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Vëantur",
     "Url": "http://lotr.wikia.com//wiki/V%C3%ABantur",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Walda",
     "Url": "http://lotr.wikia.com//wiki/Walda",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Willie Banks",
     "Url": "http://lotr.wikia.com//wiki/Willie_Banks",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Wiseman Gamwich",
     "Url": "http://lotr.wikia.com//wiki/Wiseman_Gamwich",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Wulf I",
     "Url": "http://lotr.wikia.com//wiki/Wulf_I",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Wídfara",
     "Url": "http://lotr.wikia.com//wiki/W%C3%ADdfara",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Yávien",
     "Url": "http://lotr.wikia.com//wiki/Y%C3%A1vien",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Éofor",
     "Url": "http://lotr.wikia.com//wiki/%C3%89ofor",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Éomund",
     "Url": "http://lotr.wikia.com//wiki/%C3%89omund",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Éothain",
     "Url": "http://lotr.wikia.com//wiki/%C3%89othain",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Írildë",
     "Url": "http://lotr.wikia.com//wiki/%C3%8Drild%C3%AB",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Írimë",
     "Url": "http://lotr.wikia.com//wiki/%C3%8Drim%C3%AB",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Óin",
     "Url": "http://lotr.wikia.com//wiki/%C3%93in",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Óin (King of Durin's Folk)",
     "Url": "http://lotr.wikia.com//wiki/%C3%93in_(King_of_Durin%27s_Folk)",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Bingo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Bingo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Chica (Chubb) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Chica_(Chubb)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Dora Baggins",
     "Url": "http://lotr.wikia.com//wiki/Dora_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Largo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Largo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mimosa (Bunce) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Mimosa_(Bunce)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pansy Baggins",
     "Url": "http://lotr.wikia.com//wiki/Pansy_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Polo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Polo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ponto Baggins I",
     "Url": "http://lotr.wikia.com//wiki/Ponto_Baggins_I",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ruby (Bolger) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Ruby_(Bolger)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Adalgar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Adalgar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gundahar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Gundahar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Prisca (Baggins) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Prisca_(Baggins)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rudibert Bolger",
     "Url": "http://lotr.wikia.com//wiki/Rudibert_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Theobald Bolger",
     "Url": "http://lotr.wikia.com//wiki/Theobald_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Wilimar Bolger",
     "Url": "http://lotr.wikia.com//wiki/Wilimar_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Camellia (Sackville) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Camellia_(Sackville)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Everard Took",
     "Url": "http://lotr.wikia.com//wiki/Everard_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ferdibrand Took",
     "Url": "http://lotr.wikia.com//wiki/Ferdibrand_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ferdinand Took",
     "Url": "http://lotr.wikia.com//wiki/Ferdinand_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Flambard Took",
     "Url": "http://lotr.wikia.com//wiki/Flambard_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Lalia (Clayhanger) Took",
     "Url": "http://lotr.wikia.com//wiki/Lalia_(Clayhanger)_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pervinca Took",
     "Url": "http://lotr.wikia.com//wiki/Pervinca_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pimpernel Took",
     "Url": "http://lotr.wikia.com//wiki/Pimpernel_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Reginard Took",
     "Url": "http://lotr.wikia.com//wiki/Reginard_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ruby Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Ruby_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rudolph Bolger",
     "Url": "http://lotr.wikia.com//wiki/Rudolph_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tanta (Hornblower) Baggins",
     "Url": "http://lotr.wikia.com//wiki/Tanta_(Hornblower)_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Inigo Baggins",
     "Url": "http://lotr.wikia.com//wiki/Inigo_Baggins",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tanta Hornblower",
     "Url": "http://lotr.wikia.com//wiki/Tanta_Hornblower",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tobold Hornblower",
     "Url": "http://lotr.wikia.com//wiki/Tobold_Hornblower",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Lily (Baggins) Goodbody",
     "Url": "http://lotr.wikia.com//wiki/Lily_(Baggins)_Goodbody",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bell (Goodchild) Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Bell_(Goodchild)_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Togo Goodbody",
     "Url": "http://lotr.wikia.com//wiki/Togo_Goodbody",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Goldberry",
     "Url": "http://lotr.wikia.com//wiki/Goldberry",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Goldilocks (Gardner) Took",
     "Url": "http://lotr.wikia.com//wiki/Goldilocks_(Gardner)_Took",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Merry Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Merry_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bilbo Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Bilbo_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Halfast Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Halfast_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rose Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Rose_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Hamfast Gardner",
     "Url": "http://lotr.wikia.com//wiki/Hamfast_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Pippin Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Pippin_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Primrose Gardner",
     "Url": "http://lotr.wikia.com//wiki/Primrose_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Robin Gardner",
     "Url": "http://lotr.wikia.com//wiki/Robin_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Durin",
     "Url": "http://lotr.wikia.com//wiki/Durin",
-    "Race": "Dwarf"
+    "Race": "dwarf"
   },
   {
     "Name": "Poppy (Chubb-Baggins) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Poppy_(Chubb-Baggins)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Tolman Cotton Jr.",
     "Url": "http://lotr.wikia.com//wiki/Tolman_Cotton_Jr.",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Carl Cotton",
     "Url": "http://lotr.wikia.com//wiki/Carl_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Wilcome Cotton",
     "Url": "http://lotr.wikia.com//wiki/Wilcome_Cotton",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Daisy Gamgee",
     "Url": "http://lotr.wikia.com//wiki/Daisy_Gamgee",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Berilac Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Berilac_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Doderic Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Doderic_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gorbadoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Gorbadoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Ilberic Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Ilberic_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Marmadoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Marmadoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Merimac Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Merimac_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Orgulas Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Orgulas_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Rorimac Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Rorimac_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Salvia (Brandybuck) Bolger",
     "Url": "http://lotr.wikia.com//wiki/Salvia_(Brandybuck)_Bolger",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bilbo Gardner",
     "Url": "http://lotr.wikia.com//wiki/Bilbo_Gardner",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Briffo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Briffo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gruffo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Gruffo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Lavender (Grubb) Boffin",
     "Url": "http://lotr.wikia.com//wiki/Lavender_(Grubb)_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Uffo Boffin",
     "Url": "http://lotr.wikia.com//wiki/Uffo_Boffin",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Bodo Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Bodo_Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Linda (Baggins) Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Linda_(Baggins)_Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Sancho Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Sancho_Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Olo Proudfoot",
     "Url": "http://lotr.wikia.com//wiki/Olo_Proudfoot",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Nimloth (elf)",
     "Url": "http://lotr.wikia.com//wiki/Nimloth_(elf)",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Saradoc Brandybuck",
     "Url": "http://lotr.wikia.com//wiki/Saradoc_Brandybuck",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Gríma Wormtongue",
     "Url": "http://lotr.wikia.com//wiki/Gr%C3%ADma_Wormtongue",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Gollum",
     "Url": "http://lotr.wikia.com//wiki/Gollum",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Elemmakil",
     "Url": "http://lotr.wikia.com//wiki/Elemmakil",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Radagast",
@@ -3737,36 +3737,36 @@ export default [
   {
     "Name": "Moro Burrows",
     "Url": "http://lotr.wikia.com//wiki/Moro_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Mosco Burrows",
     "Url": "http://lotr.wikia.com//wiki/Mosco_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Myrtle Burrows",
     "Url": "http://lotr.wikia.com//wiki/Myrtle_Burrows",
-    "Race": "Hobbit"
+    "Race": "hobbits"
   },
   {
     "Name": "Thingol",
     "Url": "http://lotr.wikia.com//wiki/Thingol",
-    "Race": "Elf"
+    "Race": "elf"
   },
   {
     "Name": "Théodwyn",
     "Url": "http://lotr.wikia.com//wiki/Th%C3%A9odwyn",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Eärendil",
     "Url": "http://lotr.wikia.com//wiki/E%C3%A4rendil",
-    "Race": "Human"
+    "Race": "human"
   },
   {
     "Name": "Harry Goatleaf",
     "Url": "http://lotr.wikia.com//wiki/Harry_Goatleaf",
-    "Race": "Human"
+    "Race": "human"
   }
 ]
