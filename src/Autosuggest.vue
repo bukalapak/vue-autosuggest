@@ -514,8 +514,7 @@ export default {
         return;
       }
 
-
-      if (isChild && e.target.className === 'v-omnisearch-result__delete') {
+      if (isChild && e.target.className === 'v-omnisearch-result__delete history-delete') {
         // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
         e.path[2].remove()
