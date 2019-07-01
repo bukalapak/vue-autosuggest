@@ -226,9 +226,9 @@ export default {
             this.sectionConfigs[this.currentItem.name] &&
             this.sectionConfigs[this.currentItem.name].onDeleted
           ) {
-            this.sectionConfigs[this.currentItem.name].onDeleted(this.currentItem);
+            this.sectionConfigs[this.currentItem.name].onDeleted(this.getItemByIndex(this.currentIndex));
           } else if (this.$listeners.deleted) {
-            this.$emit('deleted', this.currentItem);
+            this.$emit('deleted', this.getItemByIndex(this.currentIndex));
           }
         },
         selected: (e) => {
@@ -517,7 +517,7 @@ export default {
       if (isChild && e.target.className === 'v-omnisearch-result__delete history-delete') {
         // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
-        e.path[2].remove()
+        document.getElementById('autosuggest__result-item--' + this.currentIndex).remove()
         return  
       }
 
