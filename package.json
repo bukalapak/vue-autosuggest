@@ -1,6 +1,6 @@
 {
   "name": "@bukalapak/vue-autosuggest",
-  "version": "2.1.2-mod",
+  "version": "2.1.3-mod",
   "description": "Vue autosuggest component.",
   "engines": {
     "node": "> 4",
