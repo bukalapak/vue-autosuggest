@@ -499,7 +499,6 @@ export default {
     },
     onDocumentMouseUp(e) {
 
-
       /** Do not re-render list on input click  */
       const isChild = this.$el.contains(e.target);
 
@@ -507,14 +506,20 @@ export default {
         (this.clickedOnScrollbar(e, this.clientXMouseDownInitial))) {
         return;
       }
-      
+
+
+      if(isChild && e.target.classList.contains('section-title__link')) {
+        return
+      }
+
       /** Clicks outside of dropdown to exit */
       if (this.currentIndex === null || !this.isOpen) {
         this.loading = true;
         return;
       }
 
-      if (isChild && e.target.className === 'v-omnisearch-result__delete history-delete') {
+      
+      if (isChild && e.target.classList.contains('v-omnisearch-result__delete')) {
         // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
         document.getElementById('autosuggest__result-item--' + this.currentIndex).remove()
