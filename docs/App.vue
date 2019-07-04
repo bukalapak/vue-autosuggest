@@ -19,8 +19,8 @@
         <template slot="after-suggestions">
           <p v-if="filteredOptions == 0" style="text-align: center;">No Results...</p>
         </template>
-        <template slot="before-section-human"> section header content for specific section goes here </template>
-        <template slot="after-section-hobbits"> footer content goes here for specific section. </template>
+        <template slot="before-section-human"><div style="margin: 20px;"><h1>before human</h1></div></template>
+        <template slot="before-section-hobbits"><div style="margin: 20px;"><h1>before hobits</h1></div></template>
 
       </vue-autosuggest>
     </div>

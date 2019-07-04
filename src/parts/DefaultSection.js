@@ -48,7 +48,7 @@ const DefaultSection = {
         className: beforeClassName
       }) || []
 
-      if (before[0]) {
+      if (before[0] && this.section.data.length > 0 && !this.section.label) {
         return before[0]
       } else if(this.section.label) {
         return this.$createElement('div',{ class: beforeClassName }, [
