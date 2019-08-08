@@ -1,6 +1,7 @@
 <template>
   <div :id="componentAttrIdAutosuggest">
-    <slot name="before-input" /><input
+    <slot name="before-input" />
+    <input
       :type="inputProps['type'] ? inputProps['type'] : 'text'"
       :value="internalValue"
       :autocomplete="inputProps.autocomplete"
@@ -16,9 +17,10 @@
       @input="inputHandler"
       @keydown="handleKeyStroke"
       v-on="listeners"
-    ><slot name="after-input" />
+    />
+    <slot name="after-input" />
     <div :class="componentAttrClassAutosuggestResultsContainer">
-      <div 
+      <div
         v-if="isOpen"
         :class="componentAttrClassAutosuggestResults"
         :aria-labelledby="componentAttrIdAutosuggest"
@@ -35,7 +37,7 @@
           :section="cs"
           @updateCurrentIndex="updateCurrentIndex"
         >
-          <template 
+          <template
             :slot="`before-section-${cs.name || cs.label}`"
             slot-scope="{section, className}"
           >
@@ -46,30 +48,13 @@
             />
           </template>
           <template slot-scope="{ suggestion, _key }">
-            <slot
-              :suggestion="suggestion" 
-              :index="_key"
-            >
-              {{ suggestion.item }}
-            </slot>
+            <slot :suggestion="suggestion" :index="_key">{{ suggestion.item }}</slot>
           </template>
-          <template 
-            :slot="`after-section-${cs.name || cs.label}`"
-            slot-scope="{section}"
-          >
-            <slot 
-              :name="`after-section-${cs.name || cs.label}`" 
-              :section="section"
-            />
+          <template :slot="`after-section-${cs.name || cs.label}`" slot-scope="{section}">
+            <slot :name="`after-section-${cs.name || cs.label}`" :section="section" />
           </template>
-          <template
-            slot="after-section"
-            slot-scope="{section}"
-          >
-            <slot
-              name="after-section"
-              :section="section"
-            />
+          <template slot="after-section" slot-scope="{section}">
+            <slot name="after-section" :section="section" />
           </template>
         </component>
         <slot name="after-suggestions" />
@@ -79,7 +64,6 @@
 </template>
 
 <script>
-
 /**
  * @typedef {Object} ResultSection
  * @prop {String} name - Name of the section
@@ -97,7 +81,7 @@ import { addClass, removeClass } from "./utils";
 const defaultSectionConfig = {
   name: "default",
   type: "default-section"
-}
+};
 
 export default {
   name: "Autosuggest",
@@ -187,7 +171,7 @@ export default {
     placeholder: {
       type: String,
       required: false,
-      default: 'Search...'
+      default: "Search..."
     }
   },
   data() {
@@ -200,7 +184,7 @@ export default {
       didSelectFromOptions: false,
       internal_inputProps: {}, // Nest default prop values don't work currently in Vue
       defaultInputProps: {
-        autocomplete: "off",
+        autocomplete: "off"
       },
       clientXMouseDownInitial: null
     };
@@ -211,7 +195,7 @@ export default {
         ...this.$listeners,
         input: e => {
           // Don't do anything native here, since we have inputHandler
-          return
+          return;
         },
         click: () => {
           /* eslint-disable-next-line vue/no-side-effects-in-computed-properties */
@@ -220,18 +204,20 @@ export default {
 
           this.ensureItemVisible(this.currentItem, this.currentIndex);
         },
-        deleted: (e) => {
+        deleted: e => {
           if (
             this.currentItem &&
             this.sectionConfigs[this.currentItem.name] &&
             this.sectionConfigs[this.currentItem.name].onDeleted
           ) {
-            this.sectionConfigs[this.currentItem.name].onDeleted(this.getItemByIndex(this.currentIndex));
+            this.sectionConfigs[this.currentItem.name].onDeleted(
+              this.getItemByIndex(this.currentIndex)
+            );
           } else if (this.$listeners.deleted) {
-            this.$emit('deleted', this.getItemByIndex(this.currentIndex));
+            this.$emit("deleted", this.getItemByIndex(this.currentIndex));
           }
         },
-        selected: (e) => {
+        selected: e => {
           // Determine which onSelected to fire. This can be either from inside
           // a section's object, from the @selected event, or from the deprecated
           // native onSelected prop (to be removed later)
@@ -248,34 +234,36 @@ export default {
           } else if (this.sectionConfigs["default"].onSelected) {
             this.sectionConfigs["default"].onSelected(null, this.searchInputOriginal);
           } else if (this.$listeners.selected) {
-            this.$emit('selected', this.currentItem);
+            this.$emit("selected", this.currentItem);
           }
-          this.setChangeItem(null)
+          this.setChangeItem(null);
         }
       };
     },
     isOpen() {
-      return this.shouldRenderSuggestions(this.totalResults, this.loading)
+      return this.shouldRenderSuggestions(this.totalResults, this.loading);
     },
     /** @returns {Array<ResultSection>} */
     computedSections() {
-      let tmpSize = 0
+      let tmpSize = 0;
       return this.suggestions.map(section => {
         if (!section.data) return;
 
         const name = section.name ? section.name : defaultSectionConfig.name;
-        let limit, label, type = null
-        
+        let limit,
+          label,
+          type = null;
+
         if (this.sectionConfigs[name]) {
-          limit = this.sectionConfigs[name].limit
-          type = this.sectionConfigs[name].type
-          label = this.sectionConfigs[name].label
+          limit = this.sectionConfigs[name].limit;
+          type = this.sectionConfigs[name].type;
+          label = this.sectionConfigs[name].label;
         }
 
         /** Set defaults for section configs. */
         type = type ? type : defaultSectionConfig.type;
 
-        limit = limit || this.limit
+        limit = limit || this.limit;
         limit = limit ? limit : Infinity;
         limit = section.data.length < limit ? section.data.length : limit;
         label = label ? label : section.label;
@@ -288,28 +276,28 @@ export default {
           data: section.data,
           start_index: tmpSize,
           end_index: tmpSize + limit - 1
-        }
-        
+        };
+
         tmpSize += limit;
-        
-        return computedSection
-      })
+
+        return computedSection;
+      });
     },
-    totalResults () {
+    totalResults() {
       return this.computedSections.reduce((acc, section) => {
         // For each section, make sure we calculate the size
         // based on how many are rendered, which maxes out at
         // the limit but can be less than the limit.
-        const { limit, data } = section
-        return acc + (data.length >= limit ? limit : data.length)
-      }, 0)
+        const { limit, data } = section;
+        return acc + (data.length >= limit ? limit : data.length);
+      }, 0);
     }
   },
   // Watcher to support initialValue
   watch: {
     value: {
-      handler(newValue){
-        this.internalValue = newValue
+      handler(newValue) {
+        this.internalValue = newValue;
       },
       immediate: true
     }
@@ -325,14 +313,14 @@ export default {
     document.addEventListener("mousedown", this.onDocumentMouseDown);
   },
   beforeDestroy() {
-    document.removeEventListener("mouseup", this.onDocumentMouseUp)
-    document.removeEventListener("mousedown", this.onDocumentMouseDown)
+    document.removeEventListener("mouseup", this.onDocumentMouseUp);
+    document.removeEventListener("mousedown", this.onDocumentMouseDown);
   },
   methods: {
     inputHandler(e) {
-      const newValue = e.target.value
-      this.$emit('input', newValue)
-      this.internalValue = newValue
+      const newValue = e.target.value;
+      this.$emit("input", newValue);
+      this.internalValue = newValue;
       if (!this.didSelectFromOptions) {
         this.searchInputOriginal = newValue;
         this.currentIndex = null;
@@ -370,10 +358,10 @@ export default {
 
       const ignoredKeyCodes = [
         16, // Shift
-        9,  // Tab
+        9, // Tab
         18, // alt/option
         91, // OS Key
-        93  // Right OS Key
+        93 // Right OS Key
       ];
 
       if (ignoredKeyCodes.indexOf(keyCode) > -1) {
@@ -413,17 +401,17 @@ export default {
             this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
             this.didSelectFromOptions = true;
           }
-          
+
           this.loading = true;
-          this.listeners.selected(this.didSelectFromOptions);        
+          this.listeners.selected(this.didSelectFromOptions);
           break;
         case 27: // Escape
           if (this.isOpen) {
             /* For 'search' input type, make sure the browser doesn't clear the input when Escape is pressed. */
             this.loading = true;
             this.currentIndex = null;
-            this.internalValue = this.searchInputOriginal
-            this.$emit('input', this.searchInputOriginal);
+            this.internalValue = this.searchInputOriginal;
+            this.$emit("input", this.searchInputOriginal);
             e.preventDefault();
           }
           break;
@@ -434,7 +422,7 @@ export default {
         this.currentItem = null;
       } else if (item) {
         this.currentItem = item;
-        const v = this.getSuggestionValue(item)
+        const v = this.getSuggestionValue(item);
         this.internalValue = v;
         if (overrideOriginalInput) {
           this.searchInputOriginal = v;
@@ -442,7 +430,7 @@ export default {
         this.ensureItemVisible(item, this.currentIndex);
       }
     },
-    normalizeItem(name, type, label, item) {  
+    normalizeItem(name, type, label, item) {
       return {
         name,
         type,
@@ -475,7 +463,8 @@ export default {
         resultsScrollScrollTop + resultsScrollWindowHeight
       ) {
         /** Current item goes below visible scroll window */
-        resultsScrollElement.scrollTop = itemHeight + currentItemScrollOffset - resultsScrollWindowHeight;
+        resultsScrollElement.scrollTop =
+          itemHeight + currentItemScrollOffset - resultsScrollWindowHeight;
       } else if (currentItemScrollOffset < resultsScrollScrollTop && resultsScrollScrollTop > 0) {
         /** Current item goes above visible scroll window */
         resultsScrollElement.scrollTop = currentItemScrollOffset;
@@ -484,32 +473,36 @@ export default {
     updateCurrentIndex(index) {
       this.setCurrentIndex(index, -1, true);
     },
-    clickedOnScrollbar(e, mouseX){
+    clickedOnScrollbar(e, mouseX) {
       const results = this.$el.querySelector(`.${this.componentAttrClassAutosuggestResults}`);
 
-      const mouseIsInsideScrollbar = results && results.clientWidth <= (mouseX + 17) && 
-        mouseX + 17 <= results.clientWidth + 34
-      return e.target.tagName === 'DIV' && results && mouseIsInsideScrollbar || false;
+      const mouseIsInsideScrollbar =
+        results && results.clientWidth <= mouseX + 17 && mouseX + 17 <= results.clientWidth + 34;
+      return (e.target.tagName === "DIV" && results && mouseIsInsideScrollbar) || false;
     },
     onDocumentMouseDown(e) {
-
       /*  eslint-disable-next-line no-console */
       var rect = e.target.getBoundingClientRect ? e.target.getBoundingClientRect() : 0;
       this.clientXMouseDownInitial = e.clientX - rect.left;
     },
     onDocumentMouseUp(e) {
-
       /** Do not re-render list on input click  */
       const isChild = this.$el.contains(e.target);
 
-      if (isChild && e.target.tagName === 'INPUT' ||
+      /* Clicks outside of dropdown */
+      if (!isChild) {
+        this.loading = true;
+        this.currentIndex = null;
+        return;
+      }
+
+      if (e.target.tagName === 'INPUT' ||
         (this.clickedOnScrollbar(e, this.clientXMouseDownInitial))) {
         return;
       }
 
-
-      if(isChild && e.target.classList.contains('section-title__link')) {
-        return
+      if (isChild && e.target.classList.contains("section-title__link")) {
+        return;
       }
 
       /** Clicks outside of dropdown to exit */
@@ -518,12 +511,11 @@ export default {
         return;
       }
 
-      
-      if (isChild && e.target.classList.contains('v-omnisearch-result__delete')) {
+      if (isChild && e.target.classList.contains("v-omnisearch-result__delete")) {
         // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
-        document.getElementById('autosuggest__result-item--' + this.currentIndex).remove()
-        return  
+        document.getElementById("autosuggest__result-item--" + this.currentIndex).remove();
+        return;
       }
 
       /** Selects an item in the dropdown */
@@ -535,15 +527,15 @@ export default {
 
     setCurrentIndex(newIndex, limit = -1, onHover = false) {
       let adjustedValue = newIndex;
-      
-      if (!onHover){
-        const hitLowerLimt = this.currentIndex === null
-        const hitUpperLimit = newIndex >= limit
+
+      if (!onHover) {
+        const hitLowerLimt = this.currentIndex === null;
+        const hitUpperLimit = newIndex >= limit;
         if (hitLowerLimt || hitUpperLimit) {
           adjustedValue = 0;
         }
       }
-      
+
       this.currentIndex = adjustedValue;
       const element = this.$el.querySelector(`#autosuggest__result-item--${this.currentIndex}`);
       const hoverClass = "autosuggest__result-item--highlighted";
@@ -555,6 +547,6 @@ export default {
         addClass(element, hoverClass);
       }
     }
-  },
+  }
 };
 </script>
