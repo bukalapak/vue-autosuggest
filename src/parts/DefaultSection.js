@@ -48,6 +48,7 @@ const DefaultSection = {
         className: beforeClassName
       }) || []
 
+      console.log(before)
       if (before[0] && this.section.data.length > 0 && !this.section.label) {
         return before[0]
       } else if(this.section.label) {
@@ -59,7 +60,7 @@ const DefaultSection = {
       }
     },
     genResult() {
-      return this.$createElement('div', 
+      return this.$createElement('div',
       {class: 'autosuggest-result-wrapper'},
       [
         this.list.map((val, key) => {
@@ -84,7 +85,7 @@ const DefaultSection = {
                 mouseleave: this.onMouseLeave
               }
             },
-            [this.renderSuggestion ? this.renderSuggestion(item) 
+            [this.renderSuggestion ? this.renderSuggestion(item)
               : this.$scopedSlots.default && this.$scopedSlots.default({
                 _key: key,
                 suggestion: item
@@ -97,8 +98,8 @@ const DefaultSection = {
   // eslint-disable-next-line no-unused-vars
   render(h) {
     const slots = {
+      beforeSectionDefault: this.$scopedSlots[`before-section`],
       afterSectionDefault: this.$scopedSlots[`after-section`],
-      afterSectionNamed: this.$scopedSlots[`after-section-${this.section.name}`]
     }
 
     return h(
@@ -108,16 +109,16 @@ const DefaultSection = {
         attrs: { role: "listbox", "aria-labelledby": "autosuggest" }
       },
       [
-        this.genTitle(),
-        this.genResult(),
-        slots.afterSectionDefault && slots.afterSectionDefault({ 
+        slots.beforeSectionDefault && slots.beforeSectionDefault({
           section: this.section,
           className: `autosuggest__result-after autosuggest__result-after--${this.section.name}`
         }),
-        slots.afterSectionNamed && slots.afterSectionNamed({ 
+        // this.genTitle(),
+        this.genResult(),
+        slots.afterSectionDefault && slots.afterSectionDefault({
           section: this.section,
-          className: `autosuggest__result_after autosuggest__result-after--${this.section.name}`
-        })
+          className: `autosuggest__result-after autosuggest__result-after--${this.section.name}`
+        }),
       ]
     );
   }

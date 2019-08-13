@@ -37,21 +37,11 @@
           :section="cs"
           @updateCurrentIndex="updateCurrentIndex"
         >
-          <template
-            :slot="`before-section-${cs.name || cs.label}`"
-            slot-scope="{section, className}"
-          >
-            <slot
-              :name="`before-section-${cs.name || cs.label}`"
-              :section="section"
-              :className="className"
-            />
+          <template slot="before-section" slot-scope="{section}">
+            <slot name="before-section" :section="section" />
           </template>
           <template slot-scope="{ suggestion, _key }">
             <slot :suggestion="suggestion" :index="_key">{{ suggestion.item }}</slot>
-          </template>
-          <template :slot="`after-section-${cs.name || cs.label}`" slot-scope="{section}">
-            <slot :name="`after-section-${cs.name || cs.label}`" :section="section" />
           </template>
           <template slot="after-section" slot-scope="{section}">
             <slot name="after-section" :section="section" />
