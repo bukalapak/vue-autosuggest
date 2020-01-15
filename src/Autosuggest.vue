@@ -501,7 +501,7 @@ export default {
         return;
       }
 
-      if (isChild && e.target.classList.contains("v-omnisearch-result__delete")) {
+      if (isChild && e.target.parentNode.classList.contains("v-omnisearch-result__delete")) {
         // this.setChangeItem(this.getItemByIndex(this.currentIndex), true);
         this.listeners.deleted(true);
         document.getElementById("autosuggest__result-item--" + this.currentIndex).remove();
